@@ -1,0 +1,38 @@
+name: Regional Sweet Image Research
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 4 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: regional-sweet-image-research
+  cancel-in-progress: false
+
+jobs:
+  discover-images:
+    name: Find image candidates and license metadata
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Discover Wikimedia Commons candidates
+        run: node scripts/find-sweet-images.mjs
+
+      - name: Upload research results
+        uses: actions/upload-artifact@v4
+        with:
+          name: pindivantalu-image-candidates
+          path: data/research/image-candidates.json
+          if-no-files-found: error
+          retention-days: 30
