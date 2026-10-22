@@ -1,0 +1,1045 @@
+{
+  "title": "Indian Regional Sweets — Research Catalogue",
+  "version": 1,
+  "coverage_note": "A growing, curated starter catalogue of representative regional sweets. This is not an exhaustive census; names, origins and spellings vary by community and source. Verify local claims before publishing.",
+  "image_policy": "Image candidates are researched separately. Do not publish an image until its relevance, source page, license, attribution requirements and hotlink/download policy have been checked.",
+  "regions": [
+    {
+      "state": "Andhra Pradesh",
+      "sweets": [
+        [
+          "Pootharekulu",
+          [
+            "Paper sweet",
+            "Putharekulu"
+          ],
+          "Atreyapuram and Godavari region"
+        ],
+        [
+          "Kaja",
+          [
+            "Madatha Kaja"
+          ],
+          "Tapeswaram and coastal Andhra"
+        ],
+        [
+          "Bandar Laddu",
+          [
+            "Machilipatnam Laddu"
+          ],
+          "Machilipatnam"
+        ],
+        [
+          "Bobbatlu",
+          [
+            "Puran Poli"
+          ],
+          "Andhra homes and festivals"
+        ],
+        [
+          "Ariselu",
+          [
+            "Adhirasam"
+          ],
+          "Festival sweet across Andhra"
+        ],
+        [
+          "Ravva Laddu",
+          [],
+          "Andhra household sweet"
+        ]
+      ]
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "sweets": [
+        [
+          "Khapse",
+          [],
+          "Festive fried pastry in Himalayan communities; regional attribution varies"
+        ],
+        [
+          "Pitha",
+          [
+            "Rice pitha"
+          ],
+          "Local rice-based festive preparations; document community-specific versions"
+        ]
+      ]
+    },
+    {
+      "state": "Assam",
+      "sweets": [
+        [
+          "Pitha",
+          [
+            "Til Pitha",
+            "Ghila Pitha",
+            "Tekeli Pitha"
+          ],
+          "Bihu rice-based sweets; types vary"
+        ],
+        [
+          "Narikol Laru",
+          [
+            "Coconut Ladoo"
+          ],
+          "Assamese festive sweet"
+        ],
+        [
+          "Tilor Laru",
+          [
+            "Sesame Ladoo"
+          ],
+          "Bihu sweet"
+        ],
+        [
+          "Payas",
+          [
+            "Payox"
+          ],
+          "Rice pudding; Assamese spelling varies"
+        ]
+      ]
+    },
+    {
+      "state": "Bihar",
+      "sweets": [
+        [
+          "Thekua",
+          [],
+          "Chhath festival offering"
+        ],
+        [
+          "Khaja",
+          [
+            "Silao Khaja"
+          ],
+          "Silao, Nalanda"
+        ],
+        [
+          "Tilkut",
+          [],
+          "Gaya and winter festivals"
+        ],
+        [
+          "Anarsa",
+          [],
+          "Rice-and-jaggery sweet; regional variants"
+        ],
+        [
+          "Malpua",
+          [],
+          "Festival sweet"
+        ]
+      ]
+    },
+    {
+      "state": "Chhattisgarh",
+      "sweets": [
+        [
+          "Dehrori",
+          [
+            "Dehrouri"
+          ],
+          "Traditional rice-and-curd sweet"
+        ],
+        [
+          "Khurmi",
+          [],
+          "Sweet fried preparation"
+        ],
+        [
+          "Thethri",
+          [],
+          "Often savory; verify classification before adding to sweets"
+        ],
+        [
+          "Bafauri sweet variants",
+          [],
+          "Needs local verification; do not publish until confirmed"
+        ]
+      ]
+    },
+    {
+      "state": "Goa",
+      "sweets": [
+        [
+          "Bebinca",
+          [
+            "Bibik"
+          ],
+          "Layered Goan dessert"
+        ],
+        [
+          "Dodol",
+          [],
+          "Coconut-jaggery sweet"
+        ],
+        [
+          "Nevri",
+          [
+            "Neureos"
+          ],
+          "Festive stuffed pastry"
+        ],
+        [
+          "Doce de grao",
+          [
+            "Doce"
+          ],
+          "Goan-Portuguese confection"
+        ],
+        [
+          "Perad",
+          [
+            "Guava cheese"
+          ],
+          "Guava confection"
+        ]
+      ]
+    },
+    {
+      "state": "Gujarat",
+      "sweets": [
+        [
+          "Mohanthal",
+          [],
+          "Gram-flour fudge"
+        ],
+        [
+          "Sukhdi",
+          [
+            "Gur papdi"
+          ],
+          "Jaggery and wheat sweet"
+        ],
+        [
+          "Basundi",
+          [],
+          "Reduced milk dessert"
+        ],
+        [
+          "Ghughra",
+          [
+            "Gujia"
+          ],
+          "Festive stuffed pastry"
+        ],
+        [
+          "Adadiya Pak",
+          [],
+          "Winter sweet"
+        ]
+      ]
+    },
+    {
+      "state": "Haryana",
+      "sweets": [
+        [
+          "Churma",
+          [],
+          "Wheat-based sweet; shared across north-west India"
+        ],
+        [
+          "Alsi Pinni",
+          [],
+          "Flaxseed winter sweet"
+        ],
+        [
+          "Meethe Chawal",
+          [],
+          "Sweet rice preparation"
+        ],
+        [
+          "Ghevar",
+          [],
+          "Shared with Rajasthan and north India"
+        ]
+      ]
+    },
+    {
+      "state": "Himachal Pradesh",
+      "sweets": [
+        [
+          "Mittha",
+          [
+            "Meetha Bhaat"
+          ],
+          "Sweet rice associated with Himachali celebrations"
+        ],
+        [
+          "Babru sweet variants",
+          [],
+          "Babru is commonly savory; verify local sweet variant"
+        ],
+        [
+          "Aktori sweet variants",
+          [],
+          "Local recipes vary; research before publishing"
+        ]
+      ]
+    },
+    {
+      "state": "Jharkhand",
+      "sweets": [
+        [
+          "Thekua",
+          [],
+          "Festival sweet shared with Bihar"
+        ],
+        [
+          "Malpua",
+          [],
+          "Regional and festival variants"
+        ],
+        [
+          "Arsa Roti",
+          [
+            "Arsa"
+          ],
+          "Rice-based sweet in tribal and regional food traditions"
+        ],
+        [
+          "Dhuska sweet variants",
+          [],
+          "Usually savory; exclude unless a documented sweet variant is sourced"
+        ]
+      ]
+    },
+    {
+      "state": "Karnataka",
+      "sweets": [
+        [
+          "Mysore Pak",
+          [],
+          "Mysuru"
+        ],
+        [
+          "Dharwad Peda",
+          [],
+          "Dharwad"
+        ],
+        [
+          "Obbattu",
+          [
+            "Holige",
+            "Bele Obbattu"
+          ],
+          "Festival flatbread sweet"
+        ],
+        [
+          "Chiroti",
+          [],
+          "Layered pastry often served with sweetened milk"
+        ],
+        [
+          "Kajjaya",
+          [],
+          "Rice-jaggery sweet"
+        ],
+        [
+          "Belagavi Kunda",
+          [
+            "Belgaum Kunda"
+          ],
+          "Belagavi"
+        ]
+      ]
+    },
+    {
+      "state": "Kerala",
+      "sweets": [
+        [
+          "Palada Payasam",
+          [],
+          "Kerala sadya dessert"
+        ],
+        [
+          "Unniyappam",
+          [],
+          "Banana-rice-jaggery snack/sweet"
+        ],
+        [
+          "Ada Pradhaman",
+          [],
+          "Coconut-milk and jaggery dessert"
+        ],
+        [
+          "Kozhukatta",
+          [],
+          "Sweet rice dumplings"
+        ],
+        [
+          "Achappam",
+          [
+            "Rose Cookies"
+          ],
+          "Often sweet festive snack"
+        ],
+        [
+          "Chatti Pathiri sweet",
+          [],
+          "Layered Malabar preparation; variant verification needed"
+        ]
+      ]
+    },
+    {
+      "state": "Madhya Pradesh",
+      "sweets": [
+        [
+          "Mawa Bati",
+          [],
+          "Milk-solid sweet"
+        ],
+        [
+          "Jalebi",
+          [],
+          "Popular regional sweet"
+        ],
+        [
+          "Malpua",
+          [],
+          "Festival sweet"
+        ],
+        [
+          "Khoya Jalebi",
+          [],
+          "Regional preparation; verify city attribution"
+        ],
+        [
+          "Bhopali Shahi Tukda",
+          [],
+          "Regional dessert variant; verify provenance"
+        ]
+      ]
+    },
+    {
+      "state": "Maharashtra",
+      "sweets": [
+        [
+          "Puran Poli",
+          [],
+          "Festival flatbread sweet"
+        ],
+        [
+          "Modak",
+          [
+            "Ukadiche Modak"
+          ],
+          "Ganesh festival sweet"
+        ],
+        [
+          "Shrikhand",
+          [],
+          "Yogurt-based dessert"
+        ],
+        [
+          "Anarsa",
+          [],
+          "Rice-and-jaggery sweet"
+        ],
+        [
+          "Basundi",
+          [],
+          "Reduced milk dessert"
+        ],
+        [
+          "Kharvas",
+          [
+            "Junnu"
+          ],
+          "Colostrum milk pudding; availability and naming vary"
+        ]
+      ]
+    },
+    {
+      "state": "Manipur",
+      "sweets": [
+        [
+          "Chahao Kheer",
+          [
+            "Black Rice Kheer"
+          ],
+          "Black rice pudding"
+        ],
+        [
+          "Madhurjan Thongba",
+          [],
+          "Sweetened flour dumplings in milk; spellings vary"
+        ],
+        [
+          "Rice-based festive sweets",
+          [],
+          "Add only with a named community recipe and reliable source"
+        ]
+      ]
+    },
+    {
+      "state": "Meghalaya",
+      "sweets": [
+        [
+          "Pukhlein",
+          [],
+          "Rice flour and jaggery fried sweet"
+        ],
+        [
+          "Sakin Gata",
+          [],
+          "Rice-and-sesame cake associated with Garo communities"
+        ],
+        [
+          "Pumaloi",
+          [],
+          "Steamed rice cake; often not sweet, classify carefully"
+        ]
+      ]
+    },
+    {
+      "state": "Mizoram",
+      "sweets": [
+        [
+          "Bawngsa-bai sweet variants",
+          [],
+          "Usually a savory preparation; do not classify as sweet without evidence"
+        ],
+        [
+          "Koat Pitha",
+          [],
+          "Fried banana-rice sweet found in parts of the Northeast; local attribution needs checking"
+        ],
+        [
+          "Rice and banana sweets",
+          [],
+          "Use community-specific sources before publishing"
+        ]
+      ]
+    },
+    {
+      "state": "Nagaland",
+      "sweets": [
+        [
+          "Sticky rice with local honey",
+          [],
+          "Descriptive category, not a single standardized dish; needs a named recipe"
+        ],
+        [
+          "Rice-based festive sweets",
+          [],
+          "Catalogue only after source and community attribution are verified"
+        ]
+      ]
+    },
+    {
+      "state": "Odisha",
+      "sweets": [
+        [
+          "Chhena Poda",
+          [],
+          "Nayagarh"
+        ],
+        [
+          "Rasagola",
+          [
+            "Odisha Rasagola"
+          ],
+          "Odisha's chhena-based sweet; historical origin claims are contested"
+        ],
+        [
+          "Khaja",
+          [],
+          "Puri temple and coastal traditions"
+        ],
+        [
+          "Chhena Jhili",
+          [],
+          "Nimapara"
+        ],
+        [
+          "Poda Pitha",
+          [],
+          "Raja festival preparation"
+        ],
+        [
+          "Kakara Pitha",
+          [],
+          "Festival sweet"
+        ]
+      ]
+    },
+    {
+      "state": "Punjab",
+      "sweets": [
+        [
+          "Pinni",
+          [],
+          "Winter sweet"
+        ],
+        [
+          "Panjiri",
+          [],
+          "Wheat-and-ghee sweet preparation"
+        ],
+        [
+          "Gajrela",
+          [
+            "Gajar ka Halwa"
+          ],
+          "Carrot dessert"
+        ],
+        [
+          "Phirni",
+          [],
+          "Rice-ground pudding"
+        ],
+        [
+          "Gur ka Halwa",
+          [],
+          "Jaggery-based halwa"
+        ]
+      ]
+    },
+    {
+      "state": "Rajasthan",
+      "sweets": [
+        [
+          "Ghevar",
+          [],
+          "Teej and monsoon festivals"
+        ],
+        [
+          "Ghewar variants",
+          [
+            "Mawa Ghevar"
+          ],
+          "Regional versions"
+        ],
+        [
+          "Mawa Kachori",
+          [],
+          "Jodhpur"
+        ],
+        [
+          "Gheekwar Laddu",
+          [],
+          "Needs spelling/source verification"
+        ],
+        [
+          "Churma Laddu",
+          [],
+          "Rajasthani sweet"
+        ],
+        [
+          "Balushahi",
+          [],
+          "Shared north Indian sweet"
+        ]
+      ]
+    },
+    {
+      "state": "Sikkim",
+      "sweets": [
+        [
+          "Sel Roti",
+          [],
+          "Festive ring-shaped rice bread; shared Himalayan tradition"
+        ],
+        [
+          "Khapse",
+          [],
+          "Festive pastry in Himalayan communities"
+        ],
+        [
+          "Sikarni",
+          [],
+          "Sweetened yogurt dessert; regional attribution varies"
+        ]
+      ]
+    },
+    {
+      "state": "Tamil Nadu",
+      "sweets": [
+        [
+          "Adhirasam",
+          [],
+          "Festival rice-and-jaggery sweet"
+        ],
+        [
+          "Mysore Pak",
+          [],
+          "Shared with Karnataka"
+        ],
+        [
+          "Palkova",
+          [
+            "Srivilliputhur Palkova"
+          ],
+          "Srivilliputhur"
+        ],
+        [
+          "Kozhukattai",
+          [
+            "Modagam"
+          ],
+          "Festival rice dumpling"
+        ],
+        [
+          "Tirunelveli Halwa",
+          [],
+          "Tirunelveli"
+        ],
+        [
+          "Jangiri",
+          [],
+          "Festival sweet"
+        ],
+        [
+          "Sakkarai Pongal",
+          [],
+          "Pongal festival"
+        ]
+      ]
+    },
+    {
+      "state": "Telangana",
+      "sweets": [
+        [
+          "Sarva Pindi sweet variants",
+          [],
+          "Usually savory; exclude unless a documented sweet variant exists"
+        ],
+        [
+          "Qubani ka Meetha",
+          [],
+          "Hyderabadi apricot dessert"
+        ],
+        [
+          "Double ka Meetha",
+          [],
+          "Hyderabadi bread pudding"
+        ],
+        [
+          "Sheer Khurma",
+          [],
+          "Eid dessert"
+        ],
+        [
+          "Ariselu",
+          [],
+          "Festival sweet"
+        ],
+        [
+          "Boondi Laddu",
+          [],
+          "Festival sweet"
+        ]
+      ]
+    },
+    {
+      "state": "Tripura",
+      "sweets": [
+        [
+          "Awan Bangwi",
+          [],
+          "Rice-based traditional food; sweet status and local recipe need verification"
+        ],
+        [
+          "Pitha",
+          [],
+          "Community-specific rice sweets; name the community/variant"
+        ],
+        [
+          "Chak-hao style rice desserts",
+          [],
+          "Requires local source before attributing to Tripura"
+        ]
+      ]
+    },
+    {
+      "state": "Uttar Pradesh",
+      "sweets": [
+        [
+          "Agra Petha",
+          [],
+          "Agra"
+        ],
+        [
+          "Mathura Peda",
+          [],
+          "Mathura"
+        ],
+        [
+          "Banarasi Lal Peda",
+          [],
+          "Varanasi"
+        ],
+        [
+          "Malaiyo",
+          [
+            "Nimish"
+          ],
+          "Varanasi and Lucknow winter dessert"
+        ],
+        [
+          "Balushahi",
+          [],
+          "Shared north Indian sweet"
+        ],
+        [
+          "Imarti",
+          [],
+          "North Indian sweet"
+        ],
+        [
+          "Gujia",
+          [],
+          "Holi and regional festivals"
+        ]
+      ]
+    },
+    {
+      "state": "Uttarakhand",
+      "sweets": [
+        [
+          "Bal Mithai",
+          [],
+          "Almora"
+        ],
+        [
+          "Singori",
+          [
+            "Singauri"
+          ],
+          "Kumaon; traditionally wrapped in leaf"
+        ],
+        [
+          "Jhangora Kheer",
+          [],
+          "Barnyard millet pudding"
+        ],
+        [
+          "Arsa",
+          [],
+          "Rice-and-jaggery sweet"
+        ],
+        [
+          "Gulgula",
+          [],
+          "Sweet fritter"
+        ]
+      ]
+    },
+    {
+      "state": "West Bengal",
+      "sweets": [
+        [
+          "Rasgulla",
+          [
+            "Rosogolla"
+          ],
+          "Bengal's chhena-based sweet; origin narratives vary"
+        ],
+        [
+          "Sandesh",
+          [],
+          "Chhena confection"
+        ],
+        [
+          "Mishti Doi",
+          [],
+          "Sweetened fermented yogurt"
+        ],
+        [
+          "Nolen Gur Sondesh",
+          [],
+          "Winter date-palm jaggery sweet"
+        ],
+        [
+          "Langcha",
+          [],
+          "Shaktigarh"
+        ],
+        [
+          "Sitabhog",
+          [],
+          "Bardhaman"
+        ],
+        [
+          "Mihidana",
+          [],
+          "Bardhaman"
+        ],
+        [
+          "Pantua",
+          [],
+          "Bengali sweet"
+        ]
+      ]
+    },
+    {
+      "state": "Andaman and Nicobar Islands",
+      "sweets": [
+        [
+          "Coconut-based island sweets",
+          [],
+          "Descriptive category; identify specific community recipe before publishing"
+        ],
+        [
+          "Payasam",
+          [],
+          "Shared Indian dessert; local versions need source"
+        ]
+      ]
+    },
+    {
+      "state": "Chandigarh",
+      "sweets": [
+        [
+          "Pinni",
+          [],
+          "Punjabi regional sweet"
+        ],
+        [
+          "Gajrela",
+          [],
+          "North Indian dessert"
+        ],
+        [
+          "Jalebi",
+          [],
+          "Common regional sweet"
+        ]
+      ]
+    },
+    {
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "sweets": [
+        [
+          "Doodhpak",
+          [],
+          "Milk-and-rice dessert"
+        ],
+        [
+          "Ghughra",
+          [],
+          "Gujarati festive sweet"
+        ],
+        [
+          "Dodol",
+          [],
+          "Coastal and western Indian sweet; local attribution needs verification"
+        ]
+      ]
+    },
+    {
+      "state": "Delhi",
+      "sweets": [
+        [
+          "Daulat ki Chaat",
+          [],
+          "Seasonal milk foam dessert"
+        ],
+        [
+          "Nagori Halwa",
+          [],
+          "Delhi breakfast sweet pairing"
+        ],
+        [
+          "Gajar ka Halwa",
+          [],
+          "North Indian winter dessert"
+        ],
+        [
+          "Jalebi",
+          [],
+          "Old Delhi sweet shops"
+        ]
+      ]
+    },
+    {
+      "state": "Jammu and Kashmir",
+      "sweets": [
+        [
+          "Shufta",
+          [],
+          "Kashmiri dried-fruit and nut confection"
+        ],
+        [
+          "Kong Phirni",
+          [],
+          "Saffron rice pudding"
+        ],
+        [
+          "Modur Pulao",
+          [],
+          "Sweet Kashmiri rice preparation"
+        ],
+        [
+          "Rot",
+          [],
+          "Festival bread; sweet versions vary"
+        ]
+      ]
+    },
+    {
+      "state": "Ladakh",
+      "sweets": [
+        [
+          "Phirni local variants",
+          [],
+          "Documented local recipe needed"
+        ],
+        [
+          "Khambir with sweet accompaniments",
+          [],
+          "Bread rather than a sweet; catalogue only as context"
+        ],
+        [
+          "Apricot-based local sweets",
+          [],
+          "Use named local recipe and source before publishing"
+        ]
+      ]
+    },
+    {
+      "state": "Lakshadweep",
+      "sweets": [
+        [
+          "Coconut-jaggery sweets",
+          [],
+          "Descriptive category; needs a named local recipe"
+        ],
+        [
+          "Mutta Mala",
+          [],
+          "Kerala/Malabar egg-thread dessert; verify local attribution"
+        ],
+        [
+          "Unnakaya",
+          [],
+          "Malabar banana sweet; verify local presence"
+        ]
+      ]
+    },
+    {
+      "state": "Puducherry",
+      "sweets": [
+        [
+          "Macarons of Puducherry",
+          [],
+          "Local bakery association; verify exact history"
+        ],
+        [
+          "Bebinca",
+          [],
+          "Shared coastal/Portuguese-influenced dessert; verify local variant"
+        ],
+        [
+          "Laddu and payasam festival sweets",
+          [],
+          "Use named recipes and local sources"
+        ]
+      ]
+    }
+  ]
+}
