@@ -1,0 +1,72 @@
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env*
+!.env.example
+
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+# Dependencies and build files
+node_modules/
+dist/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Documents and presentations
+*.pdf
+*.ppt
+*.pptx
+*.doc
+*.docx
+
+# Videos and audio
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+
+# Archives
+*.zip
+*.rar
+# Local tooling
+.bolt/
+generate_ppt*.js
+generate_ppt*.cjs
+generate_ppt*.mjs
+
+# Documents and media
+*.pdf
+*.ppt
+*.pptx
+*.doc
+*.docx
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.zip
+*.rar

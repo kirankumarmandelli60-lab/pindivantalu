@@ -1,0 +1,1679 @@
+{
+  "metadata": {
+    "title": "Pindivantalu starter catalogue",
+    "version": 1,
+    "status": "starter-content-needs-source-review",
+    "note": "Starter records to make the frontend usable without Supabase. Verify regional claims, terminology and Telugu copy; attach reliable sources before treating these records as academically verified. Generated food photographs have not been added yet."
+  },
+  "categories": [
+    {
+      "id": "category-sweets",
+      "slug": "sweets",
+      "name_english": "Sweets",
+      "name_telugu": "మిఠాయిలు",
+      "icon": "candy",
+      "display_order": 1,
+      "name_japanese": "スイーツ・伝統菓子"
+    }
+  ],
+  "regions": [
+    {
+      "id": "region-andhra-pradesh",
+      "slug": "andhra-pradesh",
+      "name_english": "Andhra Pradesh",
+      "name_telugu": "ఆంధ్రప్రదేశ్",
+      "description_english": "Explore sweets associated with Andhra Pradesh, including coastal specialties, festival preparations, and locally documented traditions.",
+      "description_telugu": "ఆంధ్రప్రదేశ్‌కు చెందిన మిఠాయిలను అన్వేషించండి. తీరప్రాంత ప్రత్యేకతలు, పండుగ వంటకాలు, స్థానిక సంప్రదాయాలను తెలుసుకోండి.",
+      "highlights_english": [
+        "Coastal specialties",
+        "Festival sweets"
+      ],
+      "highlights_telugu": [
+        "తీరప్రాంత ప్రత్యేకతలు",
+        "పండుగ మిఠాయిలు"
+      ],
+      "image": "/images/region-andhra-pradesh.jpg",
+      "display_order": 1,
+      "name_japanese": "アンドラ・プラデーシュ州",
+      "description_japanese": "海岸部の名物、お祭りの伝統菓子が揃う地域。",
+      "highlights_japanese": [
+        "海岸部の特産品",
+        "お祭りの伝統菓子"
+      ]
+    },
+    {
+      "id": "region-coastal-andhra",
+      "slug": "coastal-andhra",
+      "name_english": "Coastal Andhra",
+      "name_telugu": "కోస్తా ఆంధ్ర",
+      "description_english": "A broad cultural region with many rice-based sweets and household festival preparations. Individual dishes may be shared across neighboring areas.",
+      "description_telugu": "బియ్యంతో చేసే మిఠాయిలు, పండుగ వంటకాలతో ప్రసిద్ధి చెందిన విస్తృత సాంస్కృతిక ప్రాంతం. కొన్ని వంటకాలు పొరుగు ప్రాంతాల్లో కూడా కనిపిస్తాయి.",
+      "highlights_english": [
+        "Rice-based sweets",
+        "Home traditions"
+      ],
+      "highlights_telugu": [
+        "బియ్యం మిఠాయిలు",
+        "ఇంటి సంప్రదాయాలు"
+      ],
+      "image": "/images/region-coastal-andhra.jpg",
+      "display_order": 2,
+      "name_japanese": "コースト・アンドラ",
+      "description_japanese": "米をベースにした伝統菓子と家庭の祝祭料理が豊かな地方。",
+      "highlights_japanese": [
+        "米ベースのスイーツ",
+        "家庭の伝統"
+      ]
+    },
+    {
+      "id": "region-godavari",
+      "slug": "godavari-region",
+      "name_english": "Godavari Region",
+      "name_telugu": "గోదావరి ప్రాంతం",
+      "description_english": "A regional lens for documenting sweets, ingredients, and makers associated with the Godavari area. Local claims should be supported by sources.",
+      "description_telugu": "గోదావరి ప్రాంతానికి సంబంధించిన మిఠాయిలు, పదార్థాలు, తయారీదారుల సంప్రదాయాలను నమోదు చేసే ప్రాంతం. స్థానిక వివరాలకు ఆధారాలు జతచేయాలి.",
+      "highlights_english": [
+        "Local makers",
+        "Regional heritage"
+      ],
+      "highlights_telugu": [
+        "స్థానిక తయారీదారులు",
+        "ప్రాంతీయ వారసత్వం"
+      ],
+      "image": "/images/region-godavari-region.png",
+      "display_order": 3,
+      "name_japanese": "ゴダヴァリ地方",
+      "description_japanese": "豊かな水に恵まれ、著名な菓子職人や伝統菓子を輩出する地域。",
+      "highlights_japanese": [
+        "地元の職人",
+        "地域の名産"
+      ]
+    },
+    {
+      "id": "region-telangana",
+      "slug": "telangana",
+      "name_english": "Telangana",
+      "name_telugu": "తెలంగాణ",
+      "description_english": "Discover Telangana's sweet traditions, including Hyderabadi desserts and sweets prepared for festivals and celebrations.",
+      "description_telugu": "హైదరాబాదీ డెజర్ట్‌లు, పండుగలు మరియు వేడుకలకు తయారు చేసే మిఠాయిలతో సహా తెలంగాణ మిఠాయి సంప్రదాయాలను తెలుసుకోండి.",
+      "highlights_english": [
+        "Hyderabadi desserts",
+        "Festival traditions"
+      ],
+      "highlights_telugu": [
+        "హైదరాబాదీ డెజర్ట్‌లు",
+        "పండుగ సంప్రదాయాలు"
+      ],
+      "image": "/images/region-telangana.jpg",
+      "display_order": 4,
+      "name_japanese": "テランガーナ州",
+      "description_japanese": "ハイデラバードのデザートやお祭りの伝統が息づく地域。",
+      "highlights_japanese": [
+        "ハイデラバードのデザート",
+        "お祭りの伝統"
+      ]
+    },
+    {
+      "id": "region-hyderabad",
+      "slug": "hyderabad",
+      "name_english": "Hyderabad",
+      "name_telugu": "హైదరాబాద్",
+      "description_english": "A city with a layered culinary heritage. This catalogue highlights selected sweets associated with Hyderabadi food culture.",
+      "description_telugu": "విభిన్న వంటకాల వారసత్వం కలిగిన నగరం. హైదరాబాదీ ఆహార సంస్కృతికి సంబంధించిన కొన్ని మిఠాయిలను ఈ జాబితా పరిచయం చేస్తుంది.",
+      "highlights_english": [
+        "City food culture",
+        "Celebration desserts"
+      ],
+      "highlights_telugu": [
+        "నగర ఆహార సంస్కృతి",
+        "వేడుకల డెజర్ట్‌లు"
+      ],
+      "image": "/images/region-hyderabad.jpg",
+      "display_order": 5,
+      "name_japanese": "ハイデラバード",
+      "description_japanese": "宮廷文化を受け継ぐ重層的な食文化と祝祭デザートの街。",
+      "highlights_japanese": [
+        "都市の食文化",
+        "お祝いのデザート"
+      ]
+    },
+    {
+      "id": "region-machilipatnam",
+      "slug": "machilipatnam",
+      "name_english": "Machilipatnam",
+      "name_telugu": "మచిలీపట్నం",
+      "description_english": "A coastal Andhra locality associated with Bandar Laddu. Specific origin and recipe claims should be supported by reliable regional sources.",
+      "description_telugu": "బందరు లడ్డూతో అనుసంధానించబడిన తీరప్రాంత ఆంధ్ర పట్టణం. మూలస్థానం, వంటకానికి సంబంధించిన వివరాలకు విశ్వసనీయ ప్రాంతీయ ఆధారాలు అవసరం.",
+      "highlights_english": [
+        "Local sweet traditions",
+        "Coastal Andhra"
+      ],
+      "highlights_telugu": [
+        "స్థానిక మిఠాయి సంప్రదాయాలు",
+        "కోస్తా ఆంధ్ర"
+      ],
+      "image": "/images/region-machilipatnam.jpg",
+      "display_order": 6,
+      "name_japanese": "マチリパトナム",
+      "description_japanese": "バンダル・ラドゥで有名な歴史ある海岸沿いの街。",
+      "highlights_japanese": [
+        "伝統菓子文化",
+        "海岸部アンドラ"
+      ]
+    }
+  ],
+  "districts": [
+    {
+      "id": "district-konaseema",
+      "region_id": "region-andhra-pradesh",
+      "slug": "konaseema",
+      "name_english": "Dr. B. R. Ambedkar Konaseema",
+      "name_telugu": "డా. బి. ఆర్. అంబేద్కర్ కోనసీమ"
+    },
+    {
+      "id": "district-east-godavari",
+      "region_id": "region-andhra-pradesh",
+      "slug": "east-godavari",
+      "name_english": "East Godavari",
+      "name_telugu": "తూర్పు గోదావరి"
+    },
+    {
+      "id": "district-krishna",
+      "region_id": "region-andhra-pradesh",
+      "slug": "krishna",
+      "name_english": "Krishna",
+      "name_telugu": "కృష్ణా"
+    },
+    {
+      "id": "district-hyderabad-district",
+      "region_id": "region-telangana",
+      "slug": "hyderabad-district",
+      "name_english": "Hyderabad",
+      "name_telugu": "హైదరాబాద్"
+    },
+    {
+      "id": "district-warangal",
+      "region_id": "region-telangana",
+      "slug": "warangal",
+      "name_english": "Warangal",
+      "name_telugu": "వరంగల్"
+    },
+    {
+      "id": "district-karimnagar",
+      "region_id": "region-telangana",
+      "slug": "karimnagar",
+      "name_english": "Karimnagar",
+      "name_telugu": "కరీంనగర్"
+    }
+  ],
+  "festivals": [
+    {
+      "id": "festival-sankranti",
+      "slug": "sankranti",
+      "name_english": "Sankranti",
+      "name_telugu": "సంక్రాంతి",
+      "description_english": "A harvest festival celebrated with regional foods and household preparations. Record local customs with community-specific sources.",
+      "description_telugu": "ప్రాంతీయ వంటకాలు, ఇంటి ప్రత్యేక వంటకాలతో జరుపుకునే పంట పండుగ. స్థానిక ఆచారాలకు సంబంధిత ఆధారాలు జతచేయాలి.",
+      "significance_english": "Food traditions vary by household and region. This entry is a starting point for documenting those variations.",
+      "significance_telugu": "ఆహార సంప్రదాయాలు కుటుంబం మరియు ప్రాంతాన్ని బట్టి మారుతాయి. ఆ మార్పులను నమోదు చేయడానికి ఇది ప్రారంభం.",
+      "season": "Harvest",
+      "image": "/images/festival-sankranti.jpg",
+      "display_order": 1,
+      "name_japanese": "サンクランティ",
+      "description_japanese": "収穫を祝い、地方の特産品や家庭料理を楽しむお祭り。",
+      "significance_japanese": "家族や地域社会の絆を深める大切なお祭りです。"
+    },
+    {
+      "id": "festival-diwali",
+      "slug": "diwali",
+      "name_english": "Diwali",
+      "name_telugu": "దీపావళి",
+      "description_english": "A festival when many families prepare or share sweets. Particular dishes differ across communities.",
+      "description_telugu": "అనేక కుటుంబాలు మిఠాయిలు తయారు చేసి పంచుకునే పండుగ. వంటకాలు సమాజాలనుబట్టి మారుతాయి.",
+      "significance_english": "Use this page to connect sweets to documented household and regional customs rather than suggesting every dish is universal.",
+      "significance_telugu": "ప్రతి వంటకం అందరికీ సాధారణమని చెప్పకుండా, ఆధారాలతో కూడిన కుటుంబ మరియు ప్రాంతీయ ఆచారాలను ఇక్కడ అనుసంధానించండి.",
+      "season": "Festival season",
+      "image": "/images/festival-diwali.jpg",
+      "display_order": 2,
+      "name_japanese": "ディワリ",
+      "description_japanese": "家族や友人と甘いお菓子を分かち合う光の祭典。",
+      "significance_japanese": "家中に灯りをともし、お菓子を作り祝います。"
+    },
+    {
+      "id": "festival-bonalu",
+      "slug": "bonalu",
+      "name_english": "Bonalu",
+      "name_telugu": "బోనాలు",
+      "description_english": "A Telangana festival with distinct community and family practices. Add food associations only when supported by reliable local documentation.",
+      "description_telugu": "విభిన్న సమాజ మరియు కుటుంబ ఆచారాలు కలిగిన తెలంగాణ పండుగ. విశ్వసనీయ స్థానిక ఆధారాలున్నప్పుడే ఆహార సంబంధాలను చేర్చాలి.",
+      "significance_english": "This catalogue entry is intended for carefully sourced documentation of festival practices.",
+      "significance_telugu": "పండుగ ఆచారాలను ఆధారాలతో నమోదు చేయడానికి ఈ అంశం ఉద్దేశించబడింది.",
+      "season": "Festival season",
+      "image": "/images/festival-bonalu.jpg",
+      "display_order": 3,
+      "name_japanese": "ボナール",
+      "description_japanese": "テランガーナ州の女神を讃える伝統的な祝祭。",
+      "significance_japanese": "地域固有の文化と食の習慣が受け継がれています。"
+    },
+    {
+      "id": "festival-eid",
+      "slug": "eid",
+      "name_english": "Eid celebrations",
+      "name_telugu": "ఈద్ వేడుకలు",
+      "description_english": "Some desserts are prepared for Eid in many communities. This page documents selected dishes associated with Hyderabadi food culture.",
+      "description_telugu": "అనేక సమాజాల్లో ఈద్ సందర్భంగా కొన్ని డెజర్ట్‌లు తయారు చేస్తారు. ఈ పేజీ హైదరాబాదీ ఆహార సంస్కృతికి సంబంధించిన కొన్ని వంటకాలను నమోదు చేస్తుంది.",
+      "significance_english": "Regional and family recipes vary. Document variations and sources when expanding this entry.",
+      "significance_telugu": "ప్రాంతీయ మరియు కుటుంబ వంటకాలు మారుతాయి. ఈ అంశాన్ని విస్తరించేటప్పుడు మార్పులు, ఆధారాలు నమోదు చేయండి.",
+      "season": "Festival season",
+      "image": "/images/festival-eid.jpg",
+      "display_order": 4,
+      "name_japanese": "イード・アル＝フィトル",
+      "description_japanese": "断食明けを祝い、特別なデザートを楽しむイスラムの祝祭。",
+      "significance_japanese": "シール・クルマなどの甘いデザートで祝福します。"
+    },
+    {
+      "id": "festival-vinayaka-chavithi",
+      "slug": "vinayaka-chavithi",
+      "name_english": "Vinayaka Chavithi",
+      "name_telugu": "వినాయక చవితి",
+      "name_japanese": "ヴィナーヤカ・チャヴィティ",
+      "description_english": "A festival honoring Lord Ganesha, celebrated with special steamed rice-flour dumplings.",
+      "description_telugu": "వినాయక చవితి సందర్భంగా ప్రత్యేకంగా చేసే ఆవిరి వంటకాలు, కుడుములు, ఉండ్రళ్ళు నైవేద్యంగా సమర్పిస్తారు.",
+      "description_japanese": "ガネーシャ神を称える祭り。蒸した米粉の団子が捧げられます。",
+      "significance_english": "A widely celebrated festival marked by elaborate pujas and specific traditional foods.",
+      "significance_telugu": "ప్రతి ఇంటిలో అత్యంత భక్తిశ్రద్ధలతో జరుపుకునే పండుగ.",
+      "significance_japanese": "家族でプージャを行い、伝統料理を捧げる大切なお祭りです。",
+      "season": "Festival season",
+      "image": "/images/festival-vinayaka-chavithi.jpg",
+      "display_order": 5
+    },
+    {
+      "id": "festival-ugadi",
+      "slug": "ugadi",
+      "name_english": "Ugadi",
+      "name_telugu": "ఉగాది",
+      "name_japanese": "ウガディ",
+      "description_english": "The Telugu New Year, celebrated with a unique mix of six tastes and special festive sweets.",
+      "description_telugu": "ఆరు రుచుల సమ్మేళనంతో ఉగాది పచ్చడి మరియు పండుగ పిండివంటలతో జరుపుకునే తెలుగువారి నూతన సంవత్సరం.",
+      "description_japanese": "6つの味を組み合わせたウガディ・パチャディで祝うテルグ語圏の新年。",
+      "significance_english": "A time for new beginnings, reflection, and community celebration with traditional sweets.",
+      "significance_telugu": "కొత్త ఆశలతో, ఆనందంగా జరుపుకునే తెలుగువారి కొత్త సంవత్సరం.",
+      "significance_japanese": "伝統的なスイーツと共に新たな始まりを祝う大切な時期です。",
+      "season": "Spring",
+      "image": "/images/festival-ugadi.jpg",
+      "display_order": 6
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "ingredient-rice-flour",
+      "slug": "rice-flour",
+      "name_english": "Rice flour",
+      "name_telugu": "బియ్యప్పిండి",
+      "description_english": "A flour used in many traditional South Indian preparations.",
+      "description_telugu": "దక్షిణ భారత సంప్రదాయ వంటకాలలో ఉపయోగించే పిండి.",
+      "image": null,
+      "name_japanese": "米粉",
+      "description_japanese": "南インドの伝統菓子やスナックに広く使われる米の粉。"
+    },
+    {
+      "id": "ingredient-jaggery",
+      "slug": "jaggery",
+      "name_english": "Jaggery",
+      "name_telugu": "బెల్లం",
+      "description_english": "An unrefined sweetener used in many regional sweets.",
+      "description_telugu": "అనేక ప్రాంతీయ మిఠాయిలలో ఉపయోగించే తీపి పదార్థం.",
+      "image": null,
+      "name_japanese": "ジャガリ（黒糖）",
+      "description_japanese": "多くの伝統菓子に深みのある甘みをもたらす未精製糖。"
+    },
+    {
+      "id": "ingredient-ghee",
+      "slug": "ghee",
+      "name_english": "Ghee",
+      "name_telugu": "నెయ్యి",
+      "description_english": "Clarified butter used for flavour and texture.",
+      "description_telugu": "రుచి, మెత్తదనం కోసం ఉపయోగించే నెయ్యి.",
+      "image": null,
+      "name_japanese": "ギー",
+      "description_japanese": "芳醇な香りとコクを加えるために欠かせない精製バター。"
+    },
+    {
+      "id": "ingredient-sugar",
+      "slug": "sugar",
+      "name_english": "Sugar",
+      "name_telugu": "చక్కెర",
+      "description_english": "A sweetener used in many dessert preparations.",
+      "description_telugu": "అనేక డెజర్ట్‌లలో ఉపయోగించే తీపి పదార్థం.",
+      "image": null,
+      "name_japanese": "砂糖",
+      "description_japanese": "シロップやデザートの甘みを作る基本的な調味料。"
+    },
+    {
+      "id": "ingredient-milk",
+      "slug": "milk",
+      "name_english": "Milk",
+      "name_telugu": "పాలు",
+      "description_english": "A common base for milk-based desserts.",
+      "description_telugu": "పాలతో చేసే డెజర్ట్‌లకు ప్రధాన పదార్థం.",
+      "image": null,
+      "name_japanese": "牛乳",
+      "description_japanese": "ミルキーなデザートやプディングのベースとなる素材。"
+    },
+    {
+      "id": "ingredient-apricot",
+      "slug": "apricot",
+      "name_english": "Apricot",
+      "name_telugu": "ఆప్రికాట్ పండు",
+      "description_english": "The fruit used in Qubani ka Meetha.",
+      "description_telugu": "ఖుబానీ కా మీఠాలో ఉపయోగించే పండు.",
+      "image": null,
+      "name_japanese": "アプリコット（あんず）",
+      "description_japanese": "クバニ・カ・ミータの主役となる乾燥果実。"
+    },
+    {
+      "id": "ingredient-bread",
+      "slug": "bread",
+      "name_english": "Bread",
+      "name_telugu": "బ్రెడ్",
+      "description_english": "Bread is used as the base for Double ka Meetha.",
+      "description_telugu": "డబుల్ కా మీఠా తయారీలో బ్రెడ్‌ను ఉపయోగిస్తారు.",
+      "image": null,
+      "name_japanese": "パン",
+      "description_japanese": "ダブル・カ・ミータ（ブレッドプディング）の土台となるパン。"
+    },
+    {
+      "id": "ingredient-vermicelli",
+      "slug": "vermicelli",
+      "name_english": "Vermicelli",
+      "name_telugu": "సేమ్యా",
+      "description_english": "Thin noodles often used in milk-based festive desserts.",
+      "description_telugu": "పాలతో చేసే పండుగ డెజర్ట్‌లలో ఉపయోగించే సన్నని సేమ్యా.",
+      "image": null,
+      "name_japanese": "ヴェルミチェリ",
+      "description_japanese": "ミルクデザートに使われる極細のパスタ・麺。"
+    },
+    {
+      "id": "ingredient-sesame",
+      "slug": "sesame",
+      "name_english": "Sesame",
+      "name_telugu": "నువ్వులు",
+      "description_english": "Sesame is used in several traditional sweets.",
+      "description_telugu": "కొన్ని సంప్రదాయ మిఠాయిలలో నువ్వులను ఉపయోగిస్తారు.",
+      "image": null,
+      "name_japanese": "胡麻（ゴマ）",
+      "description_japanese": "香ばしさと食感を添える種子。"
+    },
+    {
+      "id": "ingredient-semolina",
+      "slug": "semolina",
+      "name_english": "Semolina",
+      "name_telugu": "రవ్వ",
+      "description_english": "Coarse wheat granules used in some sweet preparations.",
+      "description_telugu": "కొన్ని మిఠాయి వంటకాలలో ఉపయోగించే గోధుమ రవ్వ.",
+      "image": null,
+      "name_japanese": "セモリナ",
+      "description_japanese": "お菓子やスナックの生地に使われる小麦の粗挽き粉。"
+    },
+    {
+      "id": "ingredient-flour",
+      "slug": "flour",
+      "name_english": "Wheat flour",
+      "name_telugu": "గోధుమ పిండి",
+      "description_english": "Wheat flour is used in many layered and fried sweets; confirm the specific flour used for each local recipe.",
+      "description_telugu": "పొరలతో చేసే, వేయించే అనేక మిఠాయిలలో గోధుమ పిండిని ఉపయోగిస్తారు. ప్రతి స్థానిక వంటకంలో వాడే పిండిని నిర్ధారించాలి.",
+      "image": null,
+      "name_japanese": "小麦粉",
+      "description_japanese": "揚げ菓子や層状のスイーツの生地に使われる粉。"
+    },
+    {
+      "id": "ingredient-urad-dal",
+      "slug": "urad-dal",
+      "name_english": "Urad dal",
+      "name_telugu": "మినపప్పు",
+      "description_english": "Split black gram used in protein-rich sweets like Sunnundalu.",
+      "description_telugu": "సున్నుండలు వంటి బలవర్ధకమైన మిఠాయిలలో ఉపయోగించే మినపప్పు.",
+      "image": null,
+      "name_japanese": "ウルド豆",
+      "description_japanese": "スヌンダルなどの栄養豊かなお菓子に使われる豆の粉。"
+    },
+    {
+      "id": "ingredient-rice-rava",
+      "slug": "rice-rava",
+      "name_english": "Rice rava",
+      "name_telugu": "బియ్యపు రవ్వ",
+      "name_japanese": "米の粗挽き粉",
+      "description_english": "Coarse rice granules.",
+      "description_telugu": "బియ్యంతో చేసిన రవ్వ.",
+      "description_japanese": "米の粗挽き粉。",
+      "image": null
+    },
+    {
+      "id": "ingredient-poha",
+      "slug": "poha",
+      "name_english": "Flattened rice",
+      "name_telugu": "అటుకులు",
+      "name_japanese": "押し米",
+      "description_english": "Flattened rice flakes.",
+      "description_telugu": "అటుకులు.",
+      "description_japanese": "押し米のフレーク。",
+      "image": null
+    }
+  ],
+  "sources": [],
+  "foods": [
+    {
+      "id": "food-pootharekulu",
+      "slug": "pootharekulu",
+      "name_english": "Pootharekulu",
+      "name_telugu": "పూతరేకులు",
+      "alternate_names": [
+        "Putharekulu",
+        "Paper sweet"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "A delicate Andhra sweet made with very thin rice-starch sheets, ghee and a sweet filling. Recipes and fillings vary by maker.",
+      "description_telugu": "బియ్యపు పిండితో చేసిన పలుచని పొరలు, నెయ్యి మరియు తీపి పదార్థంతో చేసే ఆంధ్ర మిఠాయి. తయారీదారుని బట్టి పూరణ మారవచ్చు.",
+      "cultural_story_english": "Pootharekulu is widely associated with Atreyapuram and the Godavari region. Add maker interviews or reliable local sources to document its history.",
+      "cultural_story_telugu": "పూతరేకులు అట్రేయపురం మరియు గోదావరి ప్రాంతంతో విస్తృతంగా అనుసంధానించబడతాయి. చరిత్రను నమోదు చేయడానికి స్థానిక ఆధారాలు లేదా తయారీదారుల సమాచారాన్ని జతచేయండి.",
+      "regional_variations_english": "Fillings may include sugar or jaggery and may vary by household and producer.",
+      "regional_variations_telugu": "చక్కెర లేదా బెల్లం వంటి పూరణలు కుటుంబం, తయారీదారుని బట్టి మారవచ్చు.",
+      "preparation_steps_english": [],
+      "preparation_steps_telugu": [],
+      "season": "Festival season",
+      "preparation_method": "No-cook",
+      "image": "/images/pootharekulu.jpg",
+      "gallery": [],
+      "verification_status": "draft_needs_source_review",
+      "featured": true,
+      "display_order": 1,
+      "region_slugs": [
+        "andhra-pradesh",
+        "coastal-andhra",
+        "godavari-region"
+      ],
+      "festival_slugs": [
+        "sankranti",
+        "diwali"
+      ],
+      "ingredient_slugs": [
+        "rice-flour",
+        "ghee",
+        "sugar",
+        "jaggery"
+      ],
+      "source_ids": [],
+      "name_japanese": "プータレクル",
+      "description_japanese": "極薄の米粉シートとギー、砂糖で作る繊細なアンドラ州の伝統菓子。",
+      "cultural_story_japanese": "アトレヤプラムとゴダヴァリ地方に深く根ざしたお菓子です。",
+      "regional_variations_japanese": "フィリングには砂糖やジャガリ（黒糖）が使われます。",
+      "preparation_steps_japanese": [
+        "米粉から極薄のシートを作る",
+        "ギーと砂糖（またはジャガリ）を重ねる",
+        "丁寧に巻き上げて仕上げる"
+      ]
+    },
+    {
+      "id": "food-tapeswaram-kaja",
+      "slug": "tapeswaram-kaja",
+      "name_english": "Tapeswaram Kaja",
+      "name_telugu": "తాపేశ్వరం కాజా",
+      "alternate_names": [
+        "Madatha Kaja",
+        "Kaja"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "A layered, syrup-soaked sweet associated with Tapeswaram in Andhra Pradesh. Shapes and recipes can differ among makers.",
+      "description_telugu": "ఆంధ్రప్రదేశ్‌లోని తాపేశ్వరంతో అనుసంధానించబడిన పాకంలో ముంచిన పొరల మిఠాయి. ఆకారం, తయారీ విధానం తయారీదారుని బట్టి మారవచ్చు.",
+      "cultural_story_english": "The place-name association is a useful starting point for a regional food record. Verify specific historical claims before publication.",
+      "cultural_story_telugu": "ప్రాంతీయ ఆహార రికార్డుకు ఈ ప్రాంత సంబంధం ప్రారంభ బిందువు. చారిత్రక వివరాలను ప్రచురించే ముందు ఆధారాలతో నిర్ధారించండి.",
+      "regional_variations_english": "Layer thickness, shape and syrup texture vary across recipes.",
+      "regional_variations_telugu": "పొరల మందం, ఆకారం, పాకం వంటకాన్ని బట్టి మారుతాయి.",
+      "preparation_steps_english": [],
+      "preparation_steps_telugu": [],
+      "season": "Festival season",
+      "preparation_method": "Deep fried",
+      "image": "/images/tapeswaram-kaja.jpg",
+      "gallery": [],
+      "verification_status": "draft_needs_source_review",
+      "featured": false,
+      "display_order": 2,
+      "region_slugs": [
+        "andhra-pradesh",
+        "coastal-andhra",
+        "godavari-region"
+      ],
+      "festival_slugs": [
+        "sankranti",
+        "diwali"
+      ],
+      "ingredient_slugs": [
+        "flour",
+        "sugar",
+        "ghee"
+      ],
+      "source_ids": [],
+      "name_japanese": "タペスワラム・カジャ",
+      "description_japanese": "アンドラ州タペスワラム発祥の、シロップに浸した層状の揚げ菓子。",
+      "cultural_story_japanese": "地域の菓子職人によって代々受け継がれてきた名物菓子です。",
+      "regional_variations_japanese": "生地の層の厚さやシロップの濃度によって食感が変わります。",
+      "preparation_steps_japanese": [
+        "小麦粉の生地を層状に伸ばす",
+        "きつね色に深く揚げる",
+        "温かいシュガーシロップに漬け込む"
+      ]
+    },
+    {
+      "id": "food-bandar-laddu",
+      "slug": "bandar-laddu",
+      "name_english": "Bandar Laddu",
+      "name_telugu": "బందరు లడ్డు",
+      "alternate_names": [
+        "Machilipatnam Laddu"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "A traditional sweet associated with Machilipatnam, also known as Bandar. The exact ingredients and method should be recorded from a reliable recipe or maker.",
+      "description_telugu": "బందరు అని కూడా పిలిచే మచిలీపట్నంతో అనుసంధానించబడిన సంప్రదాయ మిఠాయి. పదార్థాలు, తయారీ విధానాన్ని విశ్వసనీయ వంటకం లేదా తయారీదారు ద్వారా నమోదు చేయాలి.",
+      "cultural_story_english": "Documenting the local name, ingredients and maker attribution helps distinguish this sweet from similarly named laddus.",
+      "cultural_story_telugu": "స్థానిక పేరు, పదార్థాలు, తయారీదారుని నమోదు చేయడం వల్ల ఇదే పేరున్న ఇతర లడ్డూలతో తేడాను గుర్తించవచ్చు.",
+      "regional_variations_english": "Ingredients and texture should be confirmed with a locally documented recipe.",
+      "regional_variations_telugu": "పదార్థాలు, మెత్తదనాన్ని స్థానికంగా నమోదు చేసిన వంటకం ద్వారా నిర్ధారించాలి.",
+      "preparation_steps_english": [],
+      "preparation_steps_telugu": [],
+      "season": "Festival season",
+      "preparation_method": "Cooked",
+      "image": "/images/bandar-laddu.jpg",
+      "gallery": [],
+      "verification_status": "draft_needs_source_review",
+      "featured": false,
+      "display_order": 3,
+      "region_slugs": [
+        "andhra-pradesh",
+        "coastal-andhra",
+        "machilipatnam"
+      ],
+      "festival_slugs": [
+        "sankranti",
+        "diwali"
+      ],
+      "ingredient_slugs": [
+        "ghee",
+        "sugar"
+      ],
+      "source_ids": [],
+      "name_japanese": "バンダル・ラドゥ",
+      "description_japanese": "マチリパトナム（旧名バンダル）の名物として知られる伝統的なラドゥ。",
+      "cultural_story_japanese": "海岸沿いの街マチリパトナムの歴史ある製法で作られています。",
+      "regional_variations_japanese": "伝統的な配合と食感が職人技によって守られています。",
+      "preparation_steps_japanese": [
+        "生地を細かく揚げて砕く",
+        "シロップと混ぜ合わせる",
+        "一口大の球状に丸める"
+      ]
+    },
+    {
+      "id": "food-bobbatlu",
+      "slug": "bobbatlu",
+      "name_english": "Bobbatlu",
+      "name_telugu": "బొబ్బట్లు",
+      "alternate_names": [
+        "Polelu",
+        "Puran Poli"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "A stuffed sweet flatbread prepared in different forms across Telugu-speaking households and neighboring regions.",
+      "description_telugu": "తెలుగు కుటుంబాలు మరియు పొరుగు ప్రాంతాల్లో వివిధ రకాలుగా తయారు చేసే తీపి పూరణతో నింపిన రొట్టె.",
+      "cultural_story_english": "Bobbatlu are often prepared for festivals and family occasions. Documenting local filling preferences preserves regional variation.",
+      "cultural_story_telugu": "బొబ్బట్లు పండుగలు, కుటుంబ వేడుకలప్పుడు తరచుగా తయారు చేస్తారు. స్థానిక పూరణల వివరాలను నమోదు చేయడం ప్రాంతీయ వైవిధ్యాన్ని కాపాడుతుంది.",
+      "regional_variations_english": "Fillings may use lentils and jaggery or other local combinations; recipes differ by family.",
+      "regional_variations_telugu": "పప్పు, బెల్లం లేదా స్థానిక పదార్థాలతో పూరణ చేయవచ్చు; కుటుంబాన్ని బట్టి వంటకం మారుతుంది.",
+      "preparation_steps_english": [],
+      "preparation_steps_telugu": [],
+      "season": "Festival season",
+      "preparation_method": "Cooked",
+      "image": "/images/bobbatlu.jpg",
+      "gallery": [],
+      "verification_status": "draft_needs_source_review",
+      "featured": false,
+      "display_order": 4,
+      "region_slugs": [
+        "andhra-pradesh",
+        "coastal-andhra",
+        "telangana"
+      ],
+      "festival_slugs": [
+        "sankranti",
+        "diwali"
+      ],
+      "ingredient_slugs": [
+        "jaggery",
+        "ghee"
+      ],
+      "source_ids": [],
+      "name_japanese": "ボッバトル",
+      "description_japanese": "甘いフィリングを包んで香ばしく焼き上げた伝統的な平焼き菓子。",
+      "cultural_story_japanese": "お祭りや家族の集まりで欠かせないお祝いの味です。",
+      "regional_variations_japanese": "レンズ豆とジャガリ、またはココナッツのフィリングが使われます。",
+      "preparation_steps_japanese": [
+        "生地と甘いフィリングを準備する",
+        "生地でフィリングを包む",
+        "ギーを引いた鉄板で香ばしく焼く"
+      ]
+    },
+    {
+      "id": "food-ariselu",
+      "slug": "ariselu",
+      "name_english": "Ariselu",
+      "name_telugu": "అరిసెలు",
+      "alternate_names": [
+        "Arisa",
+        "Adhirasam"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "A traditional rice-and-jaggery sweet prepared for festivals in many Telugu-speaking households. Methods and textures vary by region.",
+      "description_telugu": "తెలుగు కుటుంబాల్లో అనేక పండుగల కోసం చేసే బియ్యం, బెల్లం మిఠాయి. తయారీ విధానం, మెత్తదనం ప్రాంతాన్ని బట్టి మారవచ్చు.",
+      "cultural_story_english": "Ariselu is a useful example of a sweet with household and regional variants. Record local preparation details rather than presenting one recipe as universal.",
+      "cultural_story_telugu": "అరిసెలు కుటుంబ, ప్రాంతీయ వైవిధ్యాలను చూపించే మిఠాయి. ఒకే వంటకాన్ని అందరికీ వర్తిస్తుందని చెప్పకుండా స్థానిక తయారీ వివరాలను నమోదు చేయాలి.",
+      "regional_variations_english": "Thickness, jaggery proportion and frying technique may differ between households.",
+      "regional_variations_telugu": "మందం, బెల్లం పరిమాణం, వేయించే విధానం కుటుంబాన్ని బట్టి మారవచ్చు.",
+      "preparation_steps_english": [],
+      "preparation_steps_telugu": [],
+      "season": "Harvest",
+      "preparation_method": "Deep fried",
+      "image": "/images/ariselu.jpg",
+      "gallery": [],
+      "verification_status": "draft_needs_source_review",
+      "featured": false,
+      "display_order": 5,
+      "region_slugs": [
+        "andhra-pradesh",
+        "coastal-andhra",
+        "telangana"
+      ],
+      "festival_slugs": [
+        "sankranti",
+        "diwali"
+      ],
+      "ingredient_slugs": [
+        "rice-flour",
+        "jaggery",
+        "sesame"
+      ],
+      "source_ids": [],
+      "name_japanese": "アリセル",
+      "description_japanese": "米粉とジャガリで作る、お祝いやお祭りに欠かせない伝統菓子。",
+      "cultural_story_japanese": "収穫祭サンクランティの時期に多くの家庭で作られます。",
+      "regional_variations_japanese": "厚みやジャガリの配合、ゴマのトッピングに家庭ごとの工夫があります。",
+      "preparation_steps_japanese": [
+        "米粉とジャガリの生地を練る",
+        "丸めてゴマをまぶす",
+        "黄金色に揚げる"
+      ]
+    },
+    {
+      "id": "food-qubani-ka-meetha",
+      "slug": "qubani-ka-meetha",
+      "name_english": "Qubani ka Meetha",
+      "name_telugu": "ఖుబానీ కా మీఠా",
+      "alternate_names": [
+        "Apricot dessert"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "A Hyderabadi dessert made with apricots, commonly served with a garnish or accompaniment that varies by recipe.",
+      "description_telugu": "ఆప్రికాట్ పండ్లతో చేసే హైదరాబాదీ డెజర్ట్. అలంకరణ లేదా తోడు పదార్థాలు వంటకాన్ని బట్టి మారవచ్చు.",
+      "cultural_story_english": "Qubani ka Meetha is associated with Hyderabadi culinary culture. Use local culinary sources to document serving traditions and variations.",
+      "cultural_story_telugu": "ఖుబానీ కా మీఠా హైదరాబాదీ వంటకాల సంస్కృతితో అనుసంధానించబడింది. వడ్డించే సంప్రదాయాలు, వైవిధ్యాలను నమోదు చేయడానికి స్థానిక ఆధారాలను ఉపయోగించండి.",
+      "regional_variations_english": "Garnishes and accompaniments differ between recipes and restaurants.",
+      "regional_variations_telugu": "అలంకరణలు, తోడు పదార్థాలు వంటకాన్ని, రెస్టారెంట్‌ను బట్టి మారవచ్చు.",
+      "preparation_steps_english": [],
+      "preparation_steps_telugu": [],
+      "season": "Festival season",
+      "preparation_method": "Cooked",
+      "image": "/images/qubani-ka-meetha.jpg",
+      "gallery": [],
+      "verification_status": "draft_needs_source_review",
+      "featured": true,
+      "display_order": 6,
+      "region_slugs": [
+        "telangana",
+        "hyderabad"
+      ],
+      "festival_slugs": [
+        "eid",
+        "diwali"
+      ],
+      "ingredient_slugs": [
+        "apricot",
+        "sugar"
+      ],
+      "source_ids": [],
+      "name_japanese": "クバニ・カ・ミータ",
+      "description_japanese": "アプリコット（あんず）をじっくり煮込んだハイデラバード風デザート。",
+      "cultural_story_japanese": "ハイデラバードの宮廷料理文化に起源を持つ贅沢なデザートです。",
+      "regional_variations_japanese": "クリームやアイスクリームを添えて楽しまれます。",
+      "preparation_steps_japanese": [
+        "乾燥アプリコットを水で戻す",
+        "砂糖と一緒に柔らかくなるまで煮込む",
+        "冷やしてトッピングを添える"
+      ]
+    },
+    {
+      "id": "food-double-ka-meetha",
+      "slug": "double-ka-meetha",
+      "name_english": "Double ka Meetha",
+      "name_telugu": "డబుల్ కా మీఠా",
+      "alternate_names": [
+        "Hyderabadi bread pudding"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "A Hyderabadi dessert made with bread and a sweetened milk or syrup mixture. Recipes vary in toppings and richness.",
+      "description_telugu": "బ్రెడ్‌తో పాటు తీపి పాలు లేదా పాకంతో చేసే హైదరాబాదీ డెజర్ట్. పై అలంకరణలు, రుచి వంటకాన్ని బట్టి మారుతాయి.",
+      "cultural_story_english": "The dish is part of the city's diverse food culture. A strong entry should cite a credible local culinary source and distinguish it from related bread desserts.",
+      "cultural_story_telugu": "ఈ వంటకం నగరంలోని విభిన్న ఆహార సంస్కృతిలో భాగం. విశ్వసనీయ స్థానిక ఆధారాన్ని జతచేసి, సంబంధిత బ్రెడ్ డెజర్ట్‌లతో తేడాలను నమోదు చేయాలి.",
+      "regional_variations_english": "Bread type, soaking method and garnish can vary.",
+      "regional_variations_telugu": "బ్రెడ్ రకం, నానబెట్టే విధానం, అలంకరణ మారవచ్చు.",
+      "preparation_steps_english": [],
+      "preparation_steps_telugu": [],
+      "season": "Festival season",
+      "preparation_method": "Cooked",
+      "image": "/images/double-ka-meetha.jpg",
+      "gallery": [],
+      "verification_status": "draft_needs_source_review",
+      "featured": false,
+      "display_order": 7,
+      "region_slugs": [
+        "telangana",
+        "hyderabad"
+      ],
+      "festival_slugs": [
+        "eid",
+        "diwali"
+      ],
+      "ingredient_slugs": [
+        "bread",
+        "milk",
+        "sugar",
+        "ghee"
+      ],
+      "source_ids": [],
+      "name_japanese": "ダブル・カ・ミータ",
+      "description_japanese": "パンと甘いミルク、スパイスで作るリッチなハイデラバード風ブレッドプディング。",
+      "cultural_story_japanese": "結婚式や祝祭の宴席で伝統的に振る舞われるデザートです。",
+      "regional_variations_japanese": "ドライフルーツやナッツをふんだんにトッピングします。",
+      "preparation_steps_japanese": [
+        "パンを一口大に切ってギーで揚げる",
+        "サフラン風味の甘いミルクで煮込む",
+        "ナッツを飾る"
+      ]
+    },
+    {
+      "id": "food-sheer-khurma",
+      "slug": "sheer-khurma",
+      "name_english": "Sheer Khurma",
+      "name_telugu": "షీర్ ఖుర్మా",
+      "alternate_names": [
+        "Sheer Khorma"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "A festive vermicelli-and-milk dessert associated with Eid celebrations in many South Asian communities. Family recipes differ.",
+      "description_telugu": "దక్షిణాసియాలోని అనేక సమాజాల్లో ఈద్ వేడుకలతో అనుసంధానించబడిన సేమ్యా, పాల డెజర్ట్. కుటుంబ వంటకాలు మారవచ్చు.",
+      "cultural_story_english": "This dish is shared across regions and communities, so the catalogue should describe its Hyderabad association without claiming it originates only in Telangana.",
+      "cultural_story_telugu": "ఈ వంటకం అనేక ప్రాంతాలు, సమాజాల్లో కనిపిస్తుంది. కాబట్టి తెలంగాణలోని హైదరాబాదీ సంబంధాన్ని వివరించాలి కానీ ఇది అక్కడే పుట్టిందని చెప్పకూడదు.",
+      "regional_variations_english": "Nuts, dates and dried fruit additions differ by family recipe.",
+      "regional_variations_telugu": "పప్పులు, ఖర్జూరం, ఎండిన పండ్లను కుటుంబ వంటకాన్ని బట్టి జోడిస్తారు.",
+      "preparation_steps_english": [],
+      "preparation_steps_telugu": [],
+      "season": "Festival season",
+      "preparation_method": "Cooked",
+      "image": "/images/sheer-khurma.jpg",
+      "gallery": [],
+      "verification_status": "draft_needs_source_review",
+      "featured": false,
+      "display_order": 8,
+      "region_slugs": [
+        "telangana",
+        "hyderabad"
+      ],
+      "festival_slugs": [
+        "eid"
+      ],
+      "ingredient_slugs": [
+        "vermicelli",
+        "milk",
+        "sugar"
+      ],
+      "source_ids": [],
+      "name_japanese": "シール・クルマ",
+      "description_japanese": "ミルク、極細パスタ（ヴェルミチェリ）、デーツで作る祝祭のデザート。",
+      "cultural_story_japanese": "イード（断食明けのお祭り）の日に家族や友人と分かち合う温かいスイーツです。",
+      "regional_variations_japanese": "ナッツやドライフルーツの種類は家庭によって異なります。",
+      "preparation_steps_japanese": [
+        "ヴェルミチェリをギーで炒める",
+        "たっぷりのミルクと砂糖で煮込む",
+        "デーツとナッツを加える"
+      ]
+    },
+    {
+      "id": "food-kakinada-khaja",
+      "slug": "kakinada-khaja",
+      "name_english": "Kakinada Khaja",
+      "name_telugu": "కాకినాడ కాజా",
+      "alternate_names": [
+        "Gottam Kaja"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "A hollow, cylindrical layered sweet soaked in sugar syrup, originating from Kakinada in coastal Andhra.",
+      "description_telugu": "కోస్తా ఆంధ్రలోని కాకినాడలో పుట్టిన, గొట్టంలా ఉండే పొరల తీపి మిఠాయి. చక్కెర పాకంలో నానబెడతారు.",
+      "cultural_story_english": "Kakinada Khaja is famous for its crispy exterior and juicy interior. It is a staple of Godavari confectionery traditions.",
+      "cultural_story_telugu": "కాకినాడ కాజా పైభాగం కరకరలాడుతూ లోపల రసభరితంగా ఉంటుంది. గోదావరి పిండివంటల సంప్రదాయంలో ఇది ప్రత్యేకమైనది.",
+      "regional_variations_english": "Often referred to as Gottam Kaja due to its pipe-like hollow structure.",
+      "regional_variations_telugu": "గొట్టం ఆకారంలో ఉండటం వల్ల దీనిని గొట్టం కాజా అని కూడా పిలుస్తారు.",
+      "preparation_steps_english": [],
+      "preparation_steps_telugu": [],
+      "season": "Festival season",
+      "preparation_method": "Deep fried",
+      "image": "/images/kakinada-khaja.jpg",
+      "gallery": [],
+      "verification_status": "draft_needs_source_review",
+      "featured": false,
+      "display_order": 9,
+      "region_slugs": [
+        "andhra-pradesh",
+        "coastal-andhra",
+        "godavari-region"
+      ],
+      "festival_slugs": [
+        "sankranti",
+        "diwali"
+      ],
+      "ingredient_slugs": [
+        "flour",
+        "sugar",
+        "ghee"
+      ],
+      "source_ids": [],
+      "name_japanese": "カキナダ・カジャ",
+      "description_japanese": "海岸部カキナダ発祥の、管状の空洞を持つジューシーな層状菓子。",
+      "regional_variations_japanese": "外側のサクサク感と中のシロップのバランスが絶妙です。",
+      "preparation_steps_japanese": [
+        "生地を管状に巻き上げる",
+        "サクサクに揚げる",
+        "甘いシロップをしみ込ませる"
+      ],
+      "cultural_story_japanese": "ゴダヴァリ地方の菓子作りの伝統を象徴する有名な一品です。"
+    },
+    {
+      "id": "food-sunnundalu",
+      "slug": "sunnundalu",
+      "name_english": "Sunnundalu",
+      "name_telugu": "సున్నుండలు",
+      "alternate_names": [
+        "Minapa Sunnundalu"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "Nutritious lollipops/laddus made from roasted urad dal, jaggery, and generous amounts of pure ghee.",
+      "description_telugu": "వేయించిన మినపప్పు, బెల్లం మరియు స్వచ్ఛమైన నెయ్యితో చేసే బలవర్ధకమైన లడ్డూలు.",
+      "cultural_story_english": "A traditional Andhra and Telangana sweet prized for its rich protein content and distinct roasted aroma, commonly prepared during festivals and baby showers.",
+      "cultural_story_telugu": "ఆంధ్ర మరియు తెలంగాణ ప్రాంతాలలో ఎంతో ప్రాచుర్యం పొందిన సంప్రదాయ లడ్డూ. పండుగలు మరియు ప్రత్యేక సందర్భాలలో తయారు చేస్తారు.",
+      "regional_variations_english": "Some households add a hint of cardamom or roasted rice flour for binding.",
+      "regional_variations_telugu": "కొన్ని కుటుంబాలలో యాలకుల పొడి లేదా కొద్దిగా బియ్యప్పిండి కలుపుతారు.",
+      "preparation_steps_english": [],
+      "preparation_steps_telugu": [],
+      "season": "Festival season",
+      "preparation_method": "Cooked",
+      "image": "/images/sunnundalu.jpg",
+      "gallery": [],
+      "verification_status": "draft_needs_source_review",
+      "featured": true,
+      "display_order": 10,
+      "region_slugs": [
+        "andhra-pradesh",
+        "coastal-andhra",
+        "telangana"
+      ],
+      "festival_slugs": [
+        "sankranti",
+        "diwali"
+      ],
+      "ingredient_slugs": [
+        "urad-dal",
+        "jaggery",
+        "ghee"
+      ],
+      "source_ids": [],
+      "name_japanese": "スヌンダル",
+      "description_japanese": "ローストしたウルド豆、ジャガリ、純粋なギーで作る栄養豊かなラドゥ。",
+      "regional_variations_japanese": "カルダモンパウダーや炒った米粉を少し加えることもあります。",
+      "preparation_steps_japanese": [
+        "ウルド豆を香ばしく炒って粉にする",
+        "ジャガリとギーを混ぜ合わせる",
+        "温かいうちに丸める"
+      ],
+      "cultural_story_japanese": "高タンパクで栄養価が高いため、お祝い事や健康食としても愛されています。"
+    },
+    {
+      "id": "food-sakinalu",
+      "slug": "sakinalu",
+      "name_english": "Sakinalu",
+      "name_telugu": "సకినాలు",
+      "alternate_names": [
+        "Chakinalu"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "A traditional crunchy snack made of rice flour and sesame seeds, intricately coiled into concentric circles.",
+      "description_telugu": "బియ్యప్పిండి మరియు నువ్వులతో చేసే సంప్రదాయ కరకరలాడే వంటకం. గుండ్రని వృత్తాలుగా చేతితో అల్లుతారు.",
+      "cultural_story_english": "An essential part of Makara Sankranti celebrations in Telangana, particularly gifted during weddings and regional festivals.",
+      "cultural_story_telugu": "తెలంగాణలో మకర సంక్రాంతి పండుగ మరియు వివాహాది శుభకార్యాలలో అత్యంత ప్రాముఖ్యమైన ప్రత్యేక వంటకం.",
+      "regional_variations_english": "Carom seeds (ajwain) or cumin are sometimes added for extra flavor.",
+      "regional_variations_telugu": "రుచి కోసం వాము లేదా జీలకర్ర కలుపుతారు.",
+      "preparation_steps_english": [],
+      "preparation_steps_telugu": [],
+      "season": "Harvest",
+      "preparation_method": "Deep fried",
+      "image": "/images/sakinalu.jpg",
+      "gallery": [],
+      "verification_status": "draft_needs_source_review",
+      "featured": false,
+      "display_order": 11,
+      "region_slugs": [
+        "telangana"
+      ],
+      "festival_slugs": [
+        "sankranti"
+      ],
+      "ingredient_slugs": [
+        "rice-flour",
+        "sesame"
+      ],
+      "source_ids": [],
+      "name_japanese": "サキナル",
+      "description_japanese": "米粉とゴマで作る、同心円状の美しい幾何学模様のカリカリお菓子。",
+      "regional_variations_japanese": "クミンやアジュワン（キャロムシード）を加える地域もあります。",
+      "preparation_steps_japanese": [
+        "米粉とゴマで生地を作る",
+        "手作業で円形の模様に絞り出す",
+        "パリッと揚げる"
+      ],
+      "cultural_story_japanese": "テランガーナ州のサンクランティ祭や結婚式に欠かせない伝統スナックです。"
+    },
+    {
+      "id": "food-kajjikayalu",
+      "slug": "kajjikayalu",
+      "name_english": "Kajjikayalu",
+      "name_telugu": "కజ్జికాయలు",
+      "alternate_names": [
+        "Karanji",
+        "Garijelu"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "Deep-fried crescent-shaped pastry stuffed with a sweet filling of grated coconut, roasted semolina, sugar, and cardamom.",
+      "description_telugu": "కొబ్బరి తురుము, రవ్వ, చక్కెర మరియు యాలకుల పూరణతో చేసి, అర్ధచంద్రాకారంలో నూనెలో వేయించే పిండివంట.",
+      "cultural_story_english": "Prepared widely across Andhra Pradesh and Telangana during Deepavali and Sankranti festivals.",
+      "cultural_story_telugu": "దీపావళి మరియు సంక్రాంతి పండుగల సమయంలో ఆంధ్రప్రదేశ్ మరియు తెలంగాణ అంతటా విస్తృతంగా తయారు చేస్తారు.",
+      "regional_variations_english": "Fillings range from dry coconut and sugar to fried gram (pappulu) and jaggery.",
+      "regional_variations_telugu": "కొబ్బరి-చక్కెర లేదా పుట్నాల పప్పు-బెల్లంతో రకరకాల పూరణలు చేస్తారు.",
+      "preparation_steps_english": [],
+      "preparation_steps_telugu": [],
+      "season": "Festival season",
+      "preparation_method": "Deep fried",
+      "image": "/images/kajjikayalu.jpg",
+      "gallery": [],
+      "verification_status": "draft_needs_source_review",
+      "featured": false,
+      "display_order": 12,
+      "region_slugs": [
+        "andhra-pradesh",
+        "telangana"
+      ],
+      "festival_slugs": [
+        "diwali",
+        "sankranti"
+      ],
+      "ingredient_slugs": [
+        "flour",
+        "semolina",
+        "sugar"
+      ],
+      "source_ids": [],
+      "name_japanese": "カジカヤル",
+      "description_japanese": "ココナッツやセモリナの甘いフィリングを包んだ三日月形の揚げ菓子。",
+      "regional_variations_japanese": "炒った豆やドライフルーツなど多様なフィリングがあります。",
+      "preparation_steps_japanese": [
+        "小麦粉の生地を丸く伸ばす",
+        "甘いフィリングを乗せて半分に折る",
+        "端を閉じてきつね色に揚げる"
+      ],
+      "cultural_story_japanese": "ディワリやサンクランティのお祝いに各家庭で手作りされます。"
+    },
+    {
+      "id": "food-gavvalu",
+      "slug": "gavvalu",
+      "name_english": "Gavvalu",
+      "name_telugu": "గవ్వలు",
+      "alternate_names": [
+        "Pindi Gavvalu"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "Sweet shell-shaped morsels made from flour and coated in thick jaggery or sugar syrup.",
+      "description_telugu": "పిండితో గవ్వల ఆకారంలో చేసి, బెల్లం లేదా చక్కెర పాకంలో ముంచే తీపి వంటకం.",
+      "cultural_story_english": "A beloved homemade festival snack across Telugu households, shaped painstakingly over small wooden boards.",
+      "cultural_story_telugu": "చిన్న చెక్క పలకలపై చేత్తో గవ్వల ఆకారంలో అద్ది చేసే తెలుగువారి ఇళ్లలో ఎంతో ఇష్టమైన పండుగ వంటకం.",
+      "regional_variations_english": "Can be coated in jaggery syrup or crystal sugar depending on family preference.",
+      "regional_variations_telugu": "కుటుంబ రుచిని బట్టి బెల్లం పాకం లేదా చక్కెర పాకం పట్టిస్తారు.",
+      "preparation_steps_english": [],
+      "preparation_steps_telugu": [],
+      "season": "Festival season",
+      "preparation_method": "Deep fried",
+      "image": "/images/gavvalu.jpg",
+      "gallery": [],
+      "verification_status": "draft_needs_source_review",
+      "featured": false,
+      "display_order": 13,
+      "region_slugs": [
+        "andhra-pradesh",
+        "telangana",
+        "coastal-andhra"
+      ],
+      "festival_slugs": [
+        "sankranti",
+        "diwali"
+      ],
+      "ingredient_slugs": [
+        "flour",
+        "jaggery",
+        "ghee"
+      ],
+      "source_ids": [],
+      "name_japanese": "ガヴヴァル",
+      "description_japanese": "小さな木型を使って貝殻の形に成形し、シロップで絡めた一口菓子。",
+      "regional_variations_japanese": "ジャガリシロップまたは砂糖のクリスタルコーティングが選ばれます。",
+      "preparation_steps_japanese": [
+        "小さな生地を木型で貝殻型に丸める",
+        "サクッと揚げる",
+        "温かいシロップで絡める"
+      ],
+      "cultural_story_japanese": "手作業の細やかな手仕事が光る、家庭的なお祭りの定番おやつです。"
+    },
+    {
+      "id": "food-kudumulu",
+      "slug": "kudumulu-undrallu",
+      "name_english": "Kudumulu / Undrallu",
+      "name_telugu": "కుడుములు / ఉండ్రళ్ళు",
+      "name_japanese": "クドゥムル / ウンドラル",
+      "alternate_names": [
+        "Ganesh Chaturthi special"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "Steamed rice-flour dumplings made specially for Vinayaka Chavithi.",
+      "description_telugu": "వినాయక చవితి కోసం ప్రత్యేకంగా తయారుచేసే ఆవిరిపై ఉడికించిన బియ్యప్పిండి వంటకం.",
+      "description_japanese": "ヴィナーヤカ・チャヴィティのために蒸して作る米粉の団子。",
+      "cultural_story_english": "These are the traditional offerings (naivedyam) presented to Lord Ganesha during the festival.",
+      "cultural_story_telugu": "విఘ్నేశ్వరునికి భక్తిశ్రద్ధలతో సమర్పించే సాంప్రదాయ నైవేద్యం.",
+      "cultural_story_japanese": "お祭りの期間中、ガネーシャ神に捧げられる伝統的な捧げ物です。",
+      "regional_variations_english": "Can be savory (with dal) or sweet.",
+      "regional_variations_telugu": "కారపు లేదా తీపి రకాలుగా తయారు చేయవచ్చు.",
+      "regional_variations_japanese": "塩味（豆入り）や甘いものなどバリエーションがあります。",
+      "preparation_steps_english": [
+        "Prepare rice flour dough",
+        "Shape into small balls or dumpling shapes",
+        "Steam until cooked"
+      ],
+      "preparation_steps_telugu": [
+        "బియ్యప్పిండి పిండిని సిద్ధం చేయండి",
+        "చిన్న ఉండలుగా లేదా కుడుముల ఆకారంలో చేయండి",
+        "ఆవిరిపై ఉడికించండి"
+      ],
+      "preparation_steps_japanese": [
+        "米粉の生地を作る",
+        "小さな団子状に成形する",
+        "蒸し器で蒸す"
+      ],
+      "season": "Festival season",
+      "preparation_method": "Steamed",
+      "image": "/images/kudumulu-undrallu.jpg",
+      "featured": false,
+      "display_order": 14,
+      "region_slugs": [
+        "andhra-pradesh",
+        "telangana"
+      ],
+      "festival_slugs": [
+        "vinayaka-chavithi"
+      ],
+      "ingredient_slugs": [
+        "rice-flour"
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "food-bellam-thalikalu",
+      "slug": "bellam-thalikalu",
+      "name_english": "Bellam Thalikalu",
+      "name_telugu": "బెల్లం తాలికలు",
+      "name_japanese": "ベラム・タリカール",
+      "alternate_names": [
+        "Thalikalu"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "Hand-rolled rice noodles cooked in sweet jaggery-coconut milk.",
+      "description_telugu": "బెల్లం మరియు కొబ్బరి పాలతో చేసిన తియ్యని పాకంలో ఉడికించిన బియ్యపు పిండి తాలికలు.",
+      "description_japanese": "ジャガリとココナッツミルクの甘いスープで煮込んだ手打ち米粉麺。",
+      "cultural_story_english": "A beloved festival classic, especially popular during Sankranti.",
+      "cultural_story_telugu": "సంక్రాంతి మరియు పండుగల సమయంలో ఎంతో ఇష్టంగా తయారుచేసే వంటకం.",
+      "cultural_story_japanese": "サンクランティなどの祝祭で愛される定番の伝統料理。",
+      "regional_variations_english": "Cardamom powder enhances the aroma.",
+      "regional_variations_telugu": "యాలకుల పొడి అద్భుతమైన సువాసనను ఇస్తుంది.",
+      "regional_variations_japanese": "カルダモンパウダーで風味付けします。",
+      "preparation_steps_english": [
+        "Prepare rice dough",
+        "Roll into thin noodles",
+        "Cook in jaggery and coconut milk"
+      ],
+      "preparation_steps_telugu": [
+        "బియ్యపు పిండిని సిద్ధం చేయండి",
+        "తాలికలుగా ఒత్తండి",
+        "బెల్లం మరియు కొబ్బరి పాలలో ఉడికించండి"
+      ],
+      "preparation_steps_japanese": [
+        "米粉の生地を作る",
+        "細長く手打ち麺にする",
+        "ジャガリとココナッツミルクで煮る"
+      ],
+      "season": "Festival season",
+      "preparation_method": "Cooked",
+      "image": "/images/bellam-thalikalu.jpg",
+      "featured": false,
+      "display_order": 15,
+      "region_slugs": [
+        "andhra-pradesh"
+      ],
+      "festival_slugs": [
+        "sankranti",
+        "vinayaka-chavithi"
+      ],
+      "ingredient_slugs": [
+        "rice-flour",
+        "jaggery",
+        "milk"
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "food-chakkera-pongali",
+      "slug": "chakkera-pongali",
+      "name_english": "Chakkera Pongali",
+      "name_telugu": "చక్కెర పొంగలి",
+      "name_japanese": "チャッケラ・ポンガリ",
+      "alternate_names": [
+        "Sweet Pongal"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "A traditional rice dish sweetened with jaggery, ghee, nuts, and a hint of edible camphor.",
+      "description_telugu": "బియ్యం, పెసరపప్పు, బెల్లం, నెయ్యి మరియు అద్భుతమైన సువాసన కోసం పచ్చ కర్పూరంతో చేసే పొంగలి.",
+      "description_japanese": "ジャガリ、ギー、ナッツ、そして香り付けに少量の食用樟脳を入れた、贅沢な米料理。",
+      "cultural_story_english": "Often served in temples as prasad; essential during Sankranti.",
+      "cultural_story_telugu": "దేవాలయాల్లో ప్రసాదంగా సమర్పించే విశిష్టమైన వంటకం.",
+      "cultural_story_japanese": "寺院でプラサード（供物）として捧げられる、神聖な料理です。",
+      "regional_variations_english": "Some add dry fruits or raisins.",
+      "regional_variations_telugu": "డ్రై ఫ్రూట్స్ మరియు కిస్‌మిస్‌లను అదనంగా చేరుస్తారు.",
+      "regional_variations_japanese": "好みでドライフルーツやレーズンを加えます。",
+      "preparation_steps_english": [
+        "Cook rice and dal",
+        "Add jaggery and ghee",
+        "Stir in nuts and camphor"
+      ],
+      "preparation_steps_telugu": [
+        "బియ్యం, పెసరపప్పును ఉడికించండి",
+        "బెల్లం, నెయ్యి కలపండి",
+        "డ్రై ఫ్రూట్స్ మరియు కర్పూరం చేర్చండి"
+      ],
+      "preparation_steps_japanese": [
+        "米と豆を炊く",
+        "ジャガリとギーを合わせる",
+        "ナッツと樟脳を加える"
+      ],
+      "season": "Festival season",
+      "preparation_method": "Cooked",
+      "image": "/images/chakkera-pongali.jpg",
+      "featured": true,
+      "display_order": 16,
+      "region_slugs": [
+        "andhra-pradesh",
+        "telangana"
+      ],
+      "festival_slugs": [
+        "sankranti"
+      ],
+      "ingredient_slugs": [
+        "rice-flour",
+        "jaggery",
+        "ghee"
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "food-pala-kova",
+      "slug": "pala-kova",
+      "name_english": "Pala Kova",
+      "name_telugu": "పాల కోవ",
+      "name_japanese": "パラ・コヴァ",
+      "alternate_names": [
+        "Milk Kova"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "Slow-reduced milk fudge, famous from the Srivari temple in Tirupati.",
+      "description_telugu": "తిరుపతి శ్రీవారి ప్రసాదంగా ప్రసిద్ధి చెందిన, పాలను చిక్కగా మరిగించి చేసిన మిఠాయి.",
+      "description_japanese": "ティルパティの寺院で有名な、牛乳をじっくり煮詰めて作るミルクファッジ。",
+      "cultural_story_english": "A staple of Tirupati, known for its rich and creamy taste.",
+      "cultural_story_telugu": "తిరుపతి అన్నంతగా ప్రసిద్ధి చెందిన తియ్యని అనుభూతి.",
+      "cultural_story_japanese": "豊かなミルクの風味が特徴の、ティルパティを代表するスイーツ。",
+      "regional_variations_english": "Sometimes textured with fine sugar grains.",
+      "regional_variations_telugu": "కొద్దిగా గరుకైన ఆకృతి కోసం చక్కెర వాడతారు.",
+      "regional_variations_japanese": "砂糖の粒感が出るように仕上げることもあります。",
+      "preparation_steps_english": [
+        "Boil milk until reduced",
+        "Add sugar",
+        "Keep stirring until solid consistency"
+      ],
+      "preparation_steps_telugu": [
+        "పాలను దగ్గరకు మరిగించండి",
+        "చక్కెర చేర్చండి",
+        "గట్టిపడే వరకు కలుపుతూ ఉండండి"
+      ],
+      "preparation_steps_japanese": [
+        "牛乳を煮詰める",
+        "砂糖を加える",
+        "固まるまで混ぜ続ける"
+      ],
+      "season": "Year-round",
+      "preparation_method": "Cooked",
+      "image": "/images/pala-kova.jpg",
+      "featured": true,
+      "display_order": 17,
+      "region_slugs": [
+        "andhra-pradesh"
+      ],
+      "festival_slugs": [],
+      "ingredient_slugs": [
+        "milk",
+        "sugar"
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "food-junnu",
+      "slug": "junnu",
+      "name_english": "Junnu",
+      "name_telugu": "జున్ను",
+      "name_japanese": "ジュンヌ",
+      "alternate_names": [
+        "Colostrum Pudding"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "A traditional custard made from fresh bovine colostrum milk.",
+      "description_telugu": "ఆవు లేదా గేదె ఈనిన తొలి పాలు (జున్ను పాలు)తో చేసే అద్భుతమైన రుచికరమైన వంటకం.",
+      "description_japanese": "出産直後の牛乳（初乳）で作る、伝統的なプリン風デザート。",
+      "cultural_story_english": "Highly seasonal and rare, it is considered a nourishing traditional delicacy.",
+      "cultural_story_telugu": "ఎంతో అరుదైన మరియు బలవర్ధకమైన సాంప్రదాయక ఆహారం.",
+      "cultural_story_japanese": "非常に珍しく栄養価が高い、伝統的な特産品です。",
+      "regional_variations_english": "Cardamom is a standard flavor addition.",
+      "regional_variations_telugu": "యాలకుల పొడి తప్పనిసరి.",
+      "regional_variations_japanese": "カルダモンで風味を整えるのが一般的です。",
+      "preparation_steps_english": [
+        "Mix colostrum, milk, jaggery, cardamom",
+        "Steam in a pan",
+        "Chill and serve"
+      ],
+      "preparation_steps_telugu": [
+        "జున్ను పాలు, బెల్లం, యాలకుల పొడి కలపండి",
+        "ఆవిరిపై ఉడికించండి",
+        "చల్లబరిచి అందించండి"
+      ],
+      "preparation_steps_japanese": [
+        "初乳、牛乳、ジャガリ、カルダモンを混ぜる",
+        "蒸し器で蒸す",
+        "冷やしてから出す"
+      ],
+      "season": "Year-round",
+      "preparation_method": "Steamed",
+      "image": "/images/junnu.jpg",
+      "featured": true,
+      "display_order": 18,
+      "region_slugs": [
+        "andhra-pradesh",
+        "telangana"
+      ],
+      "festival_slugs": [],
+      "ingredient_slugs": [
+        "milk",
+        "jaggery"
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "food-boondi-laddu",
+      "slug": "boondi-laddu",
+      "name_english": "Boondi Laddu",
+      "name_telugu": "బూంది లడ్డు",
+      "name_japanese": "ブーンディ・ラドゥ",
+      "alternate_names": [
+        "Laddu"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "Tiny fried chickpea flour pearls soaked in syrup and shaped into laddus.",
+      "description_telugu": "శనగపిండి బూందిని పాకంలో నానబెట్టి లడ్డూలుగా చేసే ప్రముఖ తీపి వంటకం.",
+      "description_japanese": "ひよこ豆粉で作った小さな揚げ玉をシロップに浸し、丸めて作る人気の定番菓子。",
+      "cultural_story_english": "The quintessential Indian celebration sweet, present at every major event.",
+      "cultural_story_telugu": "ఏ శుభకార్యం జరిగిన లడ్డు ఉండాల్సిందే.",
+      "cultural_story_japanese": "あらゆるお祝いの場で提供される、最も代表的なインドの甘いお菓子です。",
+      "regional_variations_english": "Adding nuts and raisins increases richness.",
+      "regional_variations_telugu": "డ్రై ఫ్రూట్స్ చేర్చడం వల్ల మరింత రుచిగా ఉంటుంది.",
+      "regional_variations_japanese": "ナッツやレーズンを加えてコクを出します。",
+      "preparation_steps_english": [
+        "Make boondi",
+        "Soak in syrup",
+        "Shape into laddus"
+      ],
+      "preparation_steps_telugu": [
+        "బూంది తయారు చేయండి",
+        "పాకంలో నానబెట్టండి",
+        "లడ్డూలుగా చుట్టండి"
+      ],
+      "preparation_steps_japanese": [
+        "ブーンディ（揚げ玉）を作る",
+        "シロップに漬ける",
+        "ラドゥの形に丸める"
+      ],
+      "season": "Festival season",
+      "preparation_method": "Deep fried",
+      "image": "/images/boondi-laddu.jpg",
+      "featured": true,
+      "display_order": 19,
+      "region_slugs": [
+        "andhra-pradesh",
+        "telangana"
+      ],
+      "festival_slugs": [
+        "diwali",
+        "sankranti"
+      ],
+      "ingredient_slugs": [
+        "sugar",
+        "flour"
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "food-nuvvula-undalu",
+      "slug": "nuvvula-undalu",
+      "name_english": "Nuvvula Undalu",
+      "name_telugu": "నువ్వుల ఉండలు",
+      "name_japanese": "ヌヴラ・ウンダル",
+      "alternate_names": [
+        "Sesame Balls"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "Nutritious balls made of roasted sesame seeds and jaggery.",
+      "description_telugu": "నువ్వులు, బెల్లంతో చేసిన బలవర్ధకమైన ఉండలు.",
+      "description_japanese": "炒りゴマとジャガリで作る、栄養満点の健康的なお菓子。",
+      "cultural_story_english": "A very healthy snack often given to children for bone strength.",
+      "cultural_story_telugu": "ఎముకల పటుత్వానికి ఎంతో మేలు చేసే సాంప్రదాయ బలవర్ధకమైన ఆహారం.",
+      "cultural_story_japanese": "骨を強くする健康食として、子供たちにも親しまれてきました。",
+      "regional_variations_english": "Sometimes mixed with peanuts.",
+      "regional_variations_telugu": "కొన్ని ప్రాంతాల్లో వేరుశనగలు కూడా కలుపుతారు.",
+      "regional_variations_japanese": "ピーナッツを混ぜることもあります。",
+      "preparation_steps_english": [
+        "Roast sesame",
+        "Melt jaggery",
+        "Mix and shape"
+      ],
+      "preparation_steps_telugu": [
+        "నువ్వులను వేయించండి",
+        "బెల్లం పాకం పట్టండి",
+        "కలిపి ఉండలుగా చేయండి"
+      ],
+      "preparation_steps_japanese": [
+        "ゴマを炒る",
+        "ジャガリを溶かす",
+        "混ぜて丸める"
+      ],
+      "season": "Winter",
+      "preparation_method": "Cooked",
+      "image": "/images/nuvvula-undalu.jpg",
+      "featured": false,
+      "display_order": 20,
+      "region_slugs": [
+        "andhra-pradesh",
+        "telangana"
+      ],
+      "festival_slugs": [
+        "sankranti"
+      ],
+      "ingredient_slugs": [
+        "sesame",
+        "jaggery"
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "food-kobbari-lauzu",
+      "slug": "kobbari-lauzu",
+      "name_english": "Kobbari Lauzu",
+      "name_telugu": "కొబ్బరి లౌజు",
+      "name_japanese": "コバリ・ラウズ",
+      "alternate_names": [
+        "Coconut Fudge"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "A fudge made from grated coconut, jaggery, and cardamom.",
+      "description_telugu": "కొబ్బరి తురుము, బెల్లంతో చేసిన నోరూరించే మిఠాయి.",
+      "description_japanese": "ココナッツの果肉とジャガリ、カルダモンで作る芳醇なココナッツファッジ。",
+      "cultural_story_english": "A popular home-made sweet often prepared during family functions.",
+      "cultural_story_telugu": "శుభకార్యాల్లో ఇంట్లోనే తయారుచేసుకునే తీపి వంటకం.",
+      "cultural_story_japanese": "家庭で手作りされる、お祝いの席の定番スイーツです。",
+      "regional_variations_english": "Can be served as squares or balls.",
+      "regional_variations_telugu": "చతురస్రాలుగా లేదా ఉండలుగా వడ్డిస్తారు.",
+      "regional_variations_japanese": "四角くカットしたり、丸めたりして提供されます。",
+      "preparation_steps_english": [
+        "Grate coconut",
+        "Cook with jaggery",
+        "Set in a plate and cut"
+      ],
+      "preparation_steps_telugu": [
+        "కొబ్బరి తురుముండి",
+        "బెల్లంతో ఉడికించండి",
+        "ప్లేట్‌లో పరిచి ముక్కలుగా కోయండి"
+      ],
+      "preparation_steps_japanese": [
+        "ココナッツを削る",
+        "ジャガリと煮る",
+        "皿に敷いて冷やしカットする"
+      ],
+      "season": "Festival season",
+      "preparation_method": "Cooked",
+      "image": "/images/kobbari-lauzu.jpg",
+      "featured": false,
+      "display_order": 21,
+      "region_slugs": [
+        "andhra-pradesh",
+        "telangana"
+      ],
+      "festival_slugs": [
+        "sankranti",
+        "diwali"
+      ],
+      "ingredient_slugs": [
+        "jaggery"
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "food-verusenaga-achu",
+      "slug": "verusenaga-achu",
+      "name_english": "Verusenaga Achu",
+      "name_telugu": "వేరుశనగ అచ్చు",
+      "name_japanese": "ヴェーセナガ・アチュ",
+      "alternate_names": [
+        "Palli Patti",
+        "Peanut Brittle"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "Crunchy snack made with roasted peanuts and jaggery syrup.",
+      "description_telugu": "వేయించిన వేరుశనగలు మరియు బెల్లం పాకంతో చేసిన కరకరలాడే అచ్చు.",
+      "description_japanese": "ピーナッツをジャガリのシロップで固めた、カリカリとした食感の板菓子。",
+      "cultural_story_english": "Commonly sold in rural areas, this is an energy-packed snack.",
+      "cultural_story_telugu": "గ్రామీణ ప్రాంతాల్లో ఎంతో ప్రసిద్ధి, తక్షణ శక్తిని ఇచ్చే చిరుతిండి.",
+      "cultural_story_japanese": "手軽なエネルギー源として親しまれる、伝統的なスナック。",
+      "regional_variations_english": "Sometimes uses sesame seeds.",
+      "regional_variations_telugu": "నువ్వులతో కూడా చేస్తారు.",
+      "regional_variations_japanese": "胡麻を混ぜることもあります。",
+      "preparation_steps_english": [
+        "Roast peanuts",
+        "Melt jaggery",
+        "Mix, spread and cut"
+      ],
+      "preparation_steps_telugu": [
+        "వేరుశనగలను వేయించండి",
+        "బెల్లం పాకం పట్టండి",
+        "కలిపి అచ్చులా పరిచి కోయండి"
+      ],
+      "preparation_steps_japanese": [
+        "ピーナッツを炒る",
+        "ジャガリを溶かす",
+        "混ぜて平らに伸ばしカットする"
+      ],
+      "season": "Winter",
+      "preparation_method": "Cooked",
+      "image": "/images/verusenaga-achu.jpg",
+      "featured": false,
+      "display_order": 22,
+      "region_slugs": [
+        "andhra-pradesh",
+        "telangana"
+      ],
+      "festival_slugs": [
+        "sankranti"
+      ],
+      "ingredient_slugs": [
+        "jaggery"
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "food-atukula-laddu",
+      "slug": "atukula-laddu",
+      "name_english": "Atukula Laddu",
+      "name_telugu": "అటుకుల లడ్డు",
+      "name_japanese": "アトクラ・ラドゥ",
+      "alternate_names": [
+        "Poha Laddu"
+      ],
+      "category_id": "category-sweets",
+      "category_slug": "sweets",
+      "description_english": "Laddu made with roasted flattened rice (poha) and jaggery.",
+      "description_telugu": "అటుకులు, బెల్లం మరియు డ్రై ఫ్రూట్స్‌తో చేసిన లడ్డు.",
+      "description_japanese": "炒った押し米（ポハ）とジャガリで作る、香ばしくて手軽なラドゥ。",
+      "cultural_story_english": "A quick, wholesome sweet often made when guests arrive suddenly.",
+      "cultural_story_telugu": "చుట్టాలు వచ్చినప్పుడు త్వరగా చేసి పెట్టే ఆరోగ్యకరమైన తీపి వంటకం.",
+      "cultural_story_japanese": "来客時にもすぐに作れる、健康的で優しい味のお菓子。",
+      "regional_variations_english": "Coconut can be added.",
+      "regional_variations_telugu": "కొబ్బరి కూడా జోడించవచ్చు.",
+      "regional_variations_japanese": "ココナッツを加えてアレンジすることも可能です。",
+      "preparation_steps_english": [
+        "Roast poha",
+        "Powder and mix with jaggery",
+        "Shape into laddus"
+      ],
+      "preparation_steps_telugu": [
+        "అటుకులను వేయించండి",
+        "పొడి చేసి బెల్లం కలపండి",
+        "లడ్డూలుగా చుట్టండి"
+      ],
+      "preparation_steps_japanese": [
+        "押し米を炒る",
+        "粉にしてジャガリと混ぜる",
+        "丸めて形を整える"
+      ],
+      "season": "Year-round",
+      "preparation_method": "Cooked",
+      "image": "/images/atukula-laddu.jpg",
+      "featured": false,
+      "display_order": 23,
+      "region_slugs": [
+        "andhra-pradesh",
+        "telangana"
+      ],
+      "festival_slugs": [],
+      "ingredient_slugs": [
+        "jaggery"
+      ],
+      "source_ids": []
+    }
+  ],
+  "stories": [
+    {
+      "id": "story-local-records",
+      "slug": "documenting-local-sweets",
+      "title_english": "Every Sweet Has a Local Story",
+      "title_telugu": "ప్రతి మిఠాయికి ఒక స్థానిక కథ",
+      "excerpt_english": "A guide to recording names, makers, ingredients and local variations without overstating origins.",
+      "excerpt_telugu": "పేర్లు, తయారీదారులు, పదార్థాలు, స్థానిక వైవిధ్యాలను అతిశయోక్తి లేకుండా నమోదు చేసే మార్గదర్శి.",
+      "body_english": "A regional food atlas is strongest when it records what is known, identifies what is uncertain, and credits the people who share their knowledge. When adding a sweet, record its local name and alternate spellings, ask where the recipe is commonly prepared, and cite a source for historical or origin claims. A shared dish may be important to several regions at once.",
+      "body_telugu": "ప్రాంతీయ ఆహార అట్లస్‌లో తెలిసిన విషయాలను నమోదు చేయడం, తెలియని విషయాలను స్పష్టంగా చూపించడం, సమాచారం పంచుకున్నవారికి కృతజ్ఞతలు తెలపడం ముఖ్యం. ఒక మిఠాయిని చేర్చేటప్పుడు స్థానిక పేరు, ఇతర స్పెల్లింగ్‌లు, వంటకం ఎక్కడ తయారవుతుందో నమోదు చేసి, చారిత్రక లేదా మూలస్థాన వివరాలకు ఆధారం జతచేయాలి. ఒకే వంటకం అనేక ప్రాంతాలకు ముఖ్యమైనదై ఉండవచ్చు.",
+      "author_english": "Pindivantalu Editorial Team",
+      "author_telugu": "పిండివంటలు సంపాదక బృందం",
+      "image": "/images/story-documenting-local-sweets.jpg",
+      "food_id": null,
+      "festival_id": null,
+      "featured": true,
+      "display_order": 1,
+      "title_japanese": "すべての伝統菓子には物語がある",
+      "excerpt_japanese": "名前、作り手、材料、地域のバリエーションを正確に記録するためのガイド。",
+      "body_japanese": "地域のお菓子文化を記録することは、知られている事実を大切にし、知識を共有してくれる人々に敬意を払うことから始まります。新しいお菓子を加えるときは、その現地名や歴史的背景を記録することが大切です。",
+      "author_japanese": "ピండివంటలు 編集部"
+    },
+    {
+      "id": "story-image-credits",
+      "slug": "respectful-food-photography",
+      "title_english": "Respectful Food Photography",
+      "title_telugu": "ఆహార చిత్రాలకు బాధ్యతాయుతమైన విధానం",
+      "excerpt_english": "Why every published image needs a correct match, an appropriate license and useful alt text.",
+      "excerpt_telugu": "ప్రతి చిత్రానికి సరైన గుర్తింపు, అనుమతించిన లైసెన్స్, ఉపయోగకరమైన ప్రత్యామ్నాయ వచనం ఎందుకు అవసరమో.",
+      "body_english": "Images help visitors recognize a dish, but a beautiful image can still be misleading if it depicts another sweet. Confirm the depicted dish, keep the source and license information, credit creators when required, and write alt text that describes the image accurately. Illustrative AI-generated images should not be presented as documentary photographs.",
+      "body_telugu": "ఒక వంటకాన్ని గుర్తించడానికి చిత్రాలు సహాయపడతాయి. కానీ అందమైన చిత్రం వేరే మిఠాయిని చూపిస్తే తప్పుదారి పట్టించవచ్చు. చిత్రంలోని వంటకాన్ని నిర్ధారించండి, మూలం మరియు లైసెన్స్ వివరాలను ఉంచండి, అవసరమైనప్పుడు సృష్టికర్తకు క్రెడిట్ ఇవ్వండి, చిత్రాన్ని నిజంగా వివరించే ప్రత్యామ్నాయ వచనం రాయండి. AIతో రూపొందించిన దృష్టాంత చిత్రాలను నిజమైన డాక్యుమెంటరీ ఫోటోలుగా చూపకూడదు.",
+      "author_english": "Pindivantalu Editorial Team",
+      "author_telugu": "పిండివంటలు సంపాదక బృందం",
+      "image": "/images/story-respectful-food-photography.jpg",
+      "food_id": null,
+      "festival_id": null,
+      "featured": false,
+      "display_order": 2,
+      "title_japanese": "敬意を持ったフードフォトグラフィー",
+      "excerpt_japanese": "すべての写真に正確なマッチ、適切なライセンス、詳細な説明が必要な理由。",
+      "body_japanese": "写真は料理を認識する助けになりますが、別の料理を写した写真は誤解を招きます。撮影された料理を確認し、クリエイターに敬意を払いましょう。",
+      "author_japanese": "ピండివంటలు 編集部"
+    }
+  ]
+}

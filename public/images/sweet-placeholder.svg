@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Pindivantalu sweet image placeholder</title>
+  <desc id="desc">A warm illustrated placeholder for a traditional sweet photograph that will be added later.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7ead3"/>
+      <stop offset="1" stop-color="#dfb58b"/>
+    </linearGradient>
+    <radialGradient id="sweet" cx="40%" cy="28%" r="75%">
+      <stop offset="0" stop-color="#f9d58b"/>
+      <stop offset="1" stop-color="#ba6738"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#background)"/>
+  <circle cx="180" cy="160" r="180" fill="#fff8eb" opacity=".3"/>
+  <circle cx="1050" cy="790" r="250" fill="#a95035" opacity=".08"/>
+  <ellipse cx="600" cy="610" rx="330" ry="72" fill="#75472d" opacity=".16"/>
+  <ellipse cx="600" cy="570" rx="320" ry="95" fill="#fff7e9"/>
+  <ellipse cx="600" cy="558" rx="276" ry="72" fill="#e8c8a2"/>
+  <g fill="url(#sweet)" stroke="#a85e36" stroke-width="5">
+    <circle cx="475" cy="500" r="78"/>
+    <circle cx="600" cy="475" r="84"/>
+    <circle cx="720" cy="510" r="76"/>
+    <circle cx="535" cy="570" r="72"/>
+    <circle cx="660" cy="575" r="76"/>
+  </g>
+  <g fill="#f9e4a9" opacity=".9">
+    <circle cx="450" cy="476" r="9"/><circle cx="490" cy="518" r="7"/><circle cx="592" cy="445" r="9"/><circle cx="628" cy="495" r="7"/><circle cx="704" cy="486" r="8"/><circle cx="548" cy="552" r="7"/><circle cx="680" cy="557" r="8"/>
+  </g>
+  <text x="600" y="745" font-family="Georgia, serif" font-size="38" text-anchor="middle" fill="#71432e">Pindivantalu</text>
+  <text x="600" y="790" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" letter-spacing="4" fill="#8f6247">PHOTO COMING SOON</text>
+</svg>
